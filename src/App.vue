@@ -1,31 +1,46 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+      <router-view></router-view>
+      <Tabar v-model="selectIndex"/>
   </div>
 </template>
+<script>
+import Tabar from "./components/tabar/tabar";
+import axios from "axios";
+import {homeAxiosData} from "./axiosdata/homeaxiosdata/homeaxios";
+export default {
+    data:function(){
+        return {
+            selectIndex:0,
+            list:[]
+        }
+    },
+    components:{
+        Tabar
+    },
+    created() {
+        // axios("/api/home/jvjia_shenghuo")
+        //     .then((res)=>{
+        //         if(res.status === 200 && res.data.code === 0){
+        //             let newdata = res.data.data.map(({id,name})=>({id,name}))
+        //             this.list = newdata;
+        //         }else{
+        //             console.log("失败");
+        //         }
+        //     })
+        //     .catch((err)=>{
+        //         console.log(err)
+        //     })
+
+        homeAxiosData().then((res)=>{
+            console.log(res)
+        });
+        
+    },
+}
+</script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-#nav {
-  padding: 30px;
-}
 
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
 
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
 </style>
