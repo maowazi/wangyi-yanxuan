@@ -1,0 +1,497 @@
+[
+    {
+        "scenePicUrl": "https://yanxuan.nosdn.127.net/0d655b61b382230981416b71a0edbe55.png",
+        "listPicUrl": "https://yanxuan.nosdn.127.net/431a09a43914483f4d70aeda8ecb8a59.png",
+        "tagId": 0,
+        "simpleDesc": "网易员工人手一盒，销量稳居前三",
+        "primarySkuPreSellPrice": 0,
+        "limitedFlag": 0,
+        "newItemFlag": false,
+        "showPicUrl": "https://yanxuan.nosdn.127.net/431a09a43914483f4d70aeda8ecb8a59.png",
+        "itemTagList": [],
+        "primarySkuPreSellStatus": 0,
+        "pieceNum": 0,
+        "extra": {
+            "recommend": {
+                "rcmdSerinalNum": "be267226fdeb035d2378ff31247c0f68#2.0.0.0",
+                "itemId": "1113001"
+            },
+            "modelType": 2
+        },
+        "id": 1113001,
+        "sellVolume": 53844,
+        "isCouponConflict": false,
+        "colorNum": 0,
+        "primaryPicUrl": "https://yanxuan.nosdn.127.net/431a09a43914483f4d70aeda8ecb8a59.png",
+        "displaySkuId": 1114003,
+        "pieceUnitDesc": "个",
+        "resourcesId": 1,
+        "name": "6包/提 谷风一木3层软...",
+        "productPlace": "",
+        "counterPrice": 16.9,
+        "couponPrice": 0,
+        "retailPrice": 16.9,
+        "primary": true,
+        "status": 2
+    },
+    {
+        "scenePicUrl": "https://yanxuan.nosdn.127.net/0bc4bbf53f8db1e362eb45ba5a53f335.jpg",
+        "listPicUrl": "https://yanxuan.nosdn.127.net/1d85a516aadbeb11978f325f205820b9.png",
+        "tagId": 0,
+        "simpleDesc": "非油炸 好吃不上火",
+        "primarySkuPreSellPrice": 0,
+        "limitedFlag": 0,
+        "newItemFlag": false,
+        "showPicUrl": "https://yanxuan.nosdn.127.net/1d85a516aadbeb11978f325f205820b9.png",
+        "itemTagList": [],
+        "primarySkuPreSellStatus": 0,
+        "pieceNum": 0,
+        "extra": {
+            "recommend": {
+                "rcmdSerinalNum": "be267226fdeb035d2378ff31247c0f68#2.0.0.0",
+                "itemId": "1292003"
+            },
+            "modelType": 2
+        },
+        "id": 1292003,
+        "sellVolume": 11392,
+        "isCouponConflict": false,
+        "colorNum": 0,
+        "primaryPicUrl": "https://yanxuan.nosdn.127.net/1d85a516aadbeb11978f325f205820b9.png",
+        "displaySkuId": 1390059,
+        "pieceUnitDesc": "件",
+        "resourcesId": 2,
+        "name": "大丈夫冻干牛肉面",
+        "productPlace": "4个规格",
+        "counterPrice": 28.5,
+        "couponPrice": 0,
+        "retailPrice": 28.5,
+        "primary": true,
+        "status": 2
+    },
+    {
+        "scenePicUrl": "https://yanxuan.nosdn.127.net/eef91b9c32c07c53204dd9641251e11b.jpg",
+        "listPicUrl": "https://yanxuan.nosdn.127.net/768355bca1c186c0c25de88bd1272d8c.png",
+        "tagId": 1080000,
+        "simpleDesc": "有效吸收甲醛，去除空间异味",
+        "primarySkuPreSellPrice": 0,
+        "limitedFlag": 0,
+        "newItemFlag": false,
+        "showPicUrl": "https://yanxuan.nosdn.127.net/768355bca1c186c0c25de88bd1272d8c.png",
+        "itemTagList": [],
+        "primarySkuPreSellStatus": 0,
+        "pieceNum": 0,
+        "extra": {
+            "recommend": {
+                "rcmdSerinalNum": "be267226fdeb035d2378ff31247c0f68#2.0.0.0",
+                "itemId": "1621025"
+            },
+            "modelType": 2
+        },
+        "id": 1621025,
+        "sellVolume": 3637,
+        "isCouponConflict": false,
+        "colorNum": 0,
+        "primaryPicUrl": "https://yanxuan.nosdn.127.net/768355bca1c186c0c25de88bd1272d8c.png",
+        "displaySkuId": 1657218,
+        "tagName": "海外制造商",
+        "pieceUnitDesc": "件",
+        "resourcesId": 3,
+        "name": "美国制造 除甲醛空气净化...",
+        "productPlace": "美国制造",
+        "counterPrice": 45,
+        "couponPrice": 0,
+        "retailPrice": 45,
+        "primary": true,
+        "status": 2
+    },
+    {
+        "scenePicUrl": "https://yanxuan.nosdn.127.net/30d92cbd9eed4b3063c39c841a70fcb1.png",
+        "listPicUrl": "https://yanxuan.nosdn.127.net/51c99e780ab25679c913a19457a9dc43.png",
+        "tagId": 0,
+        "simpleDesc": "分类收纳，方便拿取，旅途轻松",
+        "primarySkuPreSellPrice": 0,
+        "limitedFlag": 0,
+        "newItemFlag": false,
+        "showPicUrl": "https://yanxuan.nosdn.127.net/51c99e780ab25679c913a19457a9dc43.png",
+        "itemTagList": [
+            {
+                "itemId": 3420074,
+                "tagId": 55154810,
+                "freshmanExclusive": false,
+                "name": "超值价",
+                "subType": 0,
+                "forbidJump": false,
+                "type": 0
+            }
+        ],
+        "primarySkuPreSellStatus": 0,
+        "pieceNum": 0,
+        "extra": {
+            "recommend": {
+                "rcmdSerinalNum": "be267226fdeb035d2378ff31247c0f68#2.0.0.0",
+                "itemId": "3420074"
+            },
+            "modelType": 2
+        },
+        "id": 3420074,
+        "sellVolume": 861,
+        "isCouponConflict": false,
+        "colorNum": 0,
+        "primaryPicUrl": "https://yanxuan.nosdn.127.net/51c99e780ab25679c913a19457a9dc43.png",
+        "displaySkuId": 3619048,
+        "pieceUnitDesc": "件",
+        "resourcesId": 4,
+        "name": "轻游系列 旅行收纳4件套",
+        "productPlace": "",
+        "counterPrice": 99.9,
+        "couponPrice": 0,
+        "retailPrice": 99.9,
+        "primary": true,
+        "status": 2
+    },
+    {
+        "scenePicUrl": "https://yanxuan.nosdn.127.net/b38f9ac476ec494235f4aa80fc8e198c.png",
+        "listPicUrl": "https://yanxuan.nosdn.127.net/acba74a016940d8c277686bba646d19a.png",
+        "tagId": 0,
+        "simpleDesc": "物理除臭，异味分解",
+        "primarySkuPreSellPrice": 0,
+        "limitedFlag": 0,
+        "newItemFlag": false,
+        "showPicUrl": "https://yanxuan.nosdn.127.net/acba74a016940d8c277686bba646d19a.png",
+        "itemTagList": [
+            {
+                "itemId": 1096001,
+                "tagId": 55154810,
+                "freshmanExclusive": false,
+                "name": "超值价",
+                "subType": 0,
+                "forbidJump": false,
+                "type": 0
+            }
+        ],
+        "primarySkuPreSellStatus": 0,
+        "pieceNum": 0,
+        "extra": {
+            "recommend": {
+                "rcmdSerinalNum": "be267226fdeb035d2378ff31247c0f68#2.0.0.0",
+                "itemId": "1096001"
+            },
+            "modelType": 2
+        },
+        "id": 1096001,
+        "sellVolume": 4179,
+        "isCouponConflict": false,
+        "colorNum": 0,
+        "primaryPicUrl": "https://yanxuan.nosdn.127.net/acba74a016940d8c277686bba646d19a.png",
+        "displaySkuId": 1100065,
+        "pieceUnitDesc": "件",
+        "resourcesId": 5,
+        "name": "不锈钢除味皂",
+        "productPlace": "",
+        "counterPrice": 9.9,
+        "couponPrice": 0,
+        "retailPrice": 9.9,
+        "primary": true,
+        "status": 2
+    },
+    {
+        "scenePicUrl": "https://yanxuan.nosdn.127.net/55d7a33324d49f53b4787dbdf61defca.jpg",
+        "listPicUrl": "https://yanxuan.nosdn.127.net/72eb76506fb94adce584c74b930a6a92.png",
+        "tagId": 0,
+        "simpleDesc": "高档、精致、省心的礼赠佳品",
+        "primarySkuPreSellPrice": 0,
+        "limitedFlag": 0,
+        "newItemFlag": false,
+        "showPicUrl": "https://yanxuan.nosdn.127.net/72eb76506fb94adce584c74b930a6a92.png",
+        "itemTagList": [],
+        "primarySkuPreSellStatus": 0,
+        "pieceNum": 0,
+        "extra": {
+            "recommend": {
+                "rcmdSerinalNum": "be267226fdeb035d2378ff31247c0f68#2.0.0.0",
+                "itemId": "1282032"
+            },
+            "modelType": 2
+        },
+        "id": 1282032,
+        "sellVolume": 78399,
+        "isCouponConflict": false,
+        "colorNum": 0,
+        "primaryPicUrl": "https://yanxuan.nosdn.127.net/72eb76506fb94adce584c74b930a6a92.png",
+        "displaySkuId": 1296141,
+        "pieceUnitDesc": "件",
+        "resourcesId": 6,
+        "name": "严选礼品卡 1000元面...",
+        "productPlace": "",
+        "counterPrice": 1000,
+        "couponPrice": 0,
+        "retailPrice": 1000,
+        "primary": true,
+        "status": 2
+    },
+    {
+        "scenePicUrl": "https://yanxuan.nosdn.127.net/be0d5041e286d3f0972d3125acb1a3a5.png",
+        "listPicUrl": "https://yanxuan.nosdn.127.net/6cdb3da46a4b95b36dea89d6d47d3bd9.png",
+        "tagId": 0,
+        "simpleDesc": "高速破壁，彻底释放营养",
+        "primarySkuPreSellPrice": 0,
+        "limitedFlag": 0,
+        "newItemFlag": false,
+        "showPicUrl": "https://yanxuan.nosdn.127.net/6cdb3da46a4b95b36dea89d6d47d3bd9.png",
+        "itemTagList": [
+            {
+                "itemId": 0,
+                "tagId": 0,
+                "freshmanExclusive": false,
+                "name": "每满99减15券",
+                "subType": 0,
+                "forbidJump": false,
+                "type": 5
+            }
+        ],
+        "primarySkuPreSellStatus": 0,
+        "pieceNum": 0,
+        "extra": {
+            "recommend": {
+                "rcmdSerinalNum": "be267226fdeb035d2378ff31247c0f68#2.0.0.0",
+                "itemId": "1545016"
+            },
+            "modelType": 2
+        },
+        "id": 1545016,
+        "sellVolume": 624,
+        "isCouponConflict": false,
+        "colorNum": 0,
+        "primaryPicUrl": "https://yanxuan.nosdn.127.net/6cdb3da46a4b95b36dea89d6d47d3bd9.png",
+        "displaySkuId": 1632000,
+        "pieceUnitDesc": "件",
+        "resourcesId": 7,
+        "name": "破壁机 冷热双杯",
+        "productPlace": "",
+        "counterPrice": 699,
+        "couponPrice": 0,
+        "retailPrice": 699,
+        "primary": true,
+        "status": 2
+    },
+    {
+        "scenePicUrl": "https://yanxuan.nosdn.127.net/79f94af9a1176befab1ddc7a2373229e.jpg",
+        "listPicUrl": "https://yanxuan.nosdn.127.net/9d581d4ec02cf86ff2a05cf81868f159.png",
+        "tagId": 0,
+        "simpleDesc": "浓缩精炖，进口燕条",
+        "primarySkuPreSellPrice": 0,
+        "limitedFlag": 0,
+        "newItemFlag": false,
+        "showPicUrl": "https://yanxuan.nosdn.127.net/9d581d4ec02cf86ff2a05cf81868f159.png",
+        "itemTagList": [
+            {
+                "itemId": 1398016,
+                "tagId": 128004061,
+                "freshmanExclusive": false,
+                "name": "加价购",
+                "subType": 0,
+                "forbidJump": false,
+                "type": 2
+            }
+        ],
+        "primarySkuPreSellStatus": 0,
+        "pieceNum": 0,
+        "extra": {
+            "recommend": {
+                "rcmdSerinalNum": "be267226fdeb035d2378ff31247c0f68#2.0.0.0",
+                "itemId": "1398016"
+            },
+            "modelType": 2
+        },
+        "id": 1398016,
+        "sellVolume": 7810,
+        "isCouponConflict": false,
+        "colorNum": 0,
+        "primaryPicUrl": "https://yanxuan.nosdn.127.net/9d581d4ec02cf86ff2a05cf81868f159.png",
+        "displaySkuId": 1435016,
+        "pieceUnitDesc": "件",
+        "resourcesId": 8,
+        "name": "浓缩即食燕窝 70克*3...",
+        "productPlace": "",
+        "counterPrice": 328,
+        "couponPrice": 0,
+        "retailPrice": 328,
+        "primary": true,
+        "status": 2
+    },
+    {
+        "scenePicUrl": "https://yanxuan-item.nosdn.127.net/72fd42bee4ced4f6c61e2d5030243f7b.png",
+        "listPicUrl": "https://yanxuan-item.nosdn.127.net/58b7b4a5277dddbfd9b99b07f38b6c20.png",
+        "tagId": 1002000,
+        "simpleDesc": "10种颜色可选，柔软好心情",
+        "primarySkuPreSellPrice": 0,
+        "limitedFlag": 0,
+        "newItemFlag": false,
+        "showPicUrl": "https://yanxuan-item.nosdn.127.net/58b7b4a5277dddbfd9b99b07f38b6c20.png",
+        "itemTagList": [],
+        "primarySkuPreSellStatus": 0,
+        "pieceNum": 0,
+        "extra": {
+            "recommend": {
+                "rcmdSerinalNum": "be267226fdeb035d2378ff31247c0f68#2.0.0.0",
+                "itemId": "1114010"
+            },
+            "modelType": 2
+        },
+        "id": 1114010,
+        "sellVolume": 119814,
+        "isCouponConflict": false,
+        "colorNum": 10,
+        "primaryPicUrl": "https://yanxuan-item.nosdn.127.net/58b7b4a5277dddbfd9b99b07f38b6c20.png",
+        "displaySkuId": 1115044,
+        "tagName": "Crocs制造商",
+        "pieceUnitDesc": "双",
+        "resourcesId": 9,
+        "name": "玩趣彩虹四季拖鞋",
+        "productPlace": "",
+        "counterPrice": 19.9,
+        "couponPrice": 0,
+        "retailPrice": 19.9,
+        "primary": true,
+        "status": 2
+    },
+    {
+        "scenePicUrl": "https://yanxuan.nosdn.127.net/7abb86ad36bb1d5b35c6f270f30d3a29.png",
+        "listPicUrl": "https://yanxuan.nosdn.127.net/268afe5e726c49c082b4615db2646c57.png",
+        "tagId": 1080000,
+        "simpleDesc": "适合青少年及习惯低枕人士",
+        "primarySkuPreSellPrice": 0,
+        "limitedFlag": 0,
+        "newItemFlag": false,
+        "showPicUrl": "https://yanxuan.nosdn.127.net/268afe5e726c49c082b4615db2646c57.png",
+        "itemTagList": [
+            {
+                "itemId": 0,
+                "tagId": 0,
+                "freshmanExclusive": false,
+                "name": "每满100减20券",
+                "subType": 0,
+                "forbidJump": false,
+                "type": 5
+            }
+        ],
+        "primarySkuPreSellStatus": 0,
+        "pieceNum": 0,
+        "extra": {
+            "recommend": {
+                "rcmdSerinalNum": "be267226fdeb035d2378ff31247c0f68#2.0.0.0",
+                "itemId": "1259044"
+            },
+            "modelType": 2
+        },
+        "id": 1259044,
+        "sellVolume": 3340,
+        "isCouponConflict": false,
+        "colorNum": 2,
+        "primaryPicUrl": "https://yanxuan.nosdn.127.net/268afe5e726c49c082b4615db2646c57.png",
+        "displaySkuId": 3573090,
+        "tagName": "海外制造商",
+        "pieceUnitDesc": "件",
+        "resourcesId": 10,
+        "name": "泰国制造 低枕乳胶枕 青...",
+        "productPlace": "泰国制造",
+        "counterPrice": 159,
+        "couponPrice": 0,
+        "retailPrice": 159,
+        "primary": true,
+        "status": 2
+    },
+    {
+        "scenePicUrl": "https://yanxuan.nosdn.127.net/c5ed80aa6624d87577f6ffe8ce063362.png",
+        "listPicUrl": "https://yanxuan.nosdn.127.net/2c7c9b473afa4a7b6607b5874ff06a8f.png",
+        "tagId": 0,
+        "simpleDesc": "耐穿专业，驰骋水中的助推器",
+        "primarySkuPreSellPrice": 0,
+        "promTag": "抄底特惠",
+        "limitedFlag": 204,
+        "newItemFlag": false,
+        "showPicUrl": "https://yanxuan.nosdn.127.net/2c7c9b473afa4a7b6607b5874ff06a8f.png",
+        "itemTagList": [
+            {
+                "itemId": 1517012,
+                "tagId": 128008078,
+                "freshmanExclusive": false,
+                "name": "抄底特惠",
+                "subType": 0,
+                "forbidJump": false,
+                "type": 2
+            }
+        ],
+        "primarySkuPreSellStatus": 0,
+        "pieceNum": 0,
+        "extra": {
+            "recommend": {
+                "rcmdSerinalNum": "be267226fdeb035d2378ff31247c0f68#2.0.0.0",
+                "itemId": "1517012"
+            },
+            "modelType": 2
+        },
+        "id": 1517012,
+        "sellVolume": 2998,
+        "isCouponConflict": true,
+        "colorNum": 2,
+        "primaryPicUrl": "https://yanxuan.nosdn.127.net/2c7c9b473afa4a7b6607b5874ff06a8f.png",
+        "displaySkuId": 1560226,
+        "pieceUnitDesc": "件",
+        "resourcesId": 11,
+        "name": "男式基础泳裤",
+        "productPlace": "",
+        "counterPrice": 59,
+        "couponPrice": 0,
+        "retailPrice": 35.4,
+        "primary": true,
+        "status": 2
+    },
+    {
+        "scenePicUrl": "https://yanxuan.nosdn.127.net/f9ab8a486207be7a192c06a3a24cb678.png",
+        "listPicUrl": "https://yanxuan.nosdn.127.net/ef20b08c32cbab5aa3ab73b187396e8c.png",
+        "tagId": 0,
+        "simpleDesc": "德国机织，丝光工艺",
+        "primarySkuPreSellPrice": 0,
+        "promTag": "抄底特惠",
+        "limitedFlag": 204,
+        "newItemFlag": false,
+        "showPicUrl": "https://yanxuan.nosdn.127.net/ef20b08c32cbab5aa3ab73b187396e8c.png",
+        "itemTagList": [
+            {
+                "itemId": 1129000,
+                "tagId": 128008077,
+                "freshmanExclusive": false,
+                "name": "抄底特惠",
+                "subType": 0,
+                "forbidJump": false,
+                "type": 2
+            }
+        ],
+        "primarySkuPreSellStatus": 0,
+        "pieceNum": 0,
+        "extra": {
+            "recommend": {
+                "rcmdSerinalNum": "be267226fdeb035d2378ff31247c0f68#2.0.0.0",
+                "itemId": "1129000"
+            },
+            "modelType": 2
+        },
+        "id": 1129000,
+        "sellVolume": 1494,
+        "isCouponConflict": true,
+        "colorNum": 4,
+        "primaryPicUrl": "https://yanxuan.nosdn.127.net/ef20b08c32cbab5aa3ab73b187396e8c.png",
+        "displaySkuId": 1129015,
+        "pieceUnitDesc": "件",
+        "resourcesId": 12,
+        "name": "男式120支丝光莫代尔T...",
+        "productPlace": "",
+        "counterPrice": 199,
+        "couponPrice": 0,
+        "retailPrice": 99.5,
+        "primary": true,
+        "status": 2
+    }
+]

@@ -1,0 +1,426 @@
+[
+    {
+        "scenePicUrl": "https://yanxuan.nosdn.127.net/095cc082fa29f4475b40f526043aad5a.png",
+        "listPicUrl": "https://yanxuan.nosdn.127.net/59bd6ae0307588f6eebf3848a4bd265f.png",
+        "tagId": 0,
+        "simpleDesc": "可满足120平米大空间干爽需求",
+        "primarySkuPreSellPrice": 0,
+        "limitedFlag": 0,
+        "newItemFlag": true,
+        "showPicUrl": "https://yanxuan.nosdn.127.net/59bd6ae0307588f6eebf3848a4bd265f.png",
+        "itemTagList": [
+            {
+                "itemId": 0,
+                "tagId": 0,
+                "freshmanExclusive": false,
+                "name": "新品",
+                "subType": 0,
+                "forbidJump": false,
+                "type": 1
+            }
+        ],
+        "primarySkuPreSellStatus": 0,
+        "pieceNum": 0,
+        "extra": {
+            "resource": {
+                "itemId": "3828011",
+                "materialName": "家用除湿机",
+                "rcmdSort": false,
+                "taskType": 1,
+                "itemFrom": 0,
+                "crmUserGroupName": "",
+                "resourcesId": 1,
+                "materialType": "商品id",
+                "itemIdList": [
+                    "3828011"
+                ],
+                "crmUserGroupId": "0",
+                "materialId": "54629335",
+                "taskId": "54629906"
+            },
+            "modelType": 1
+        },
+        "id": 3828011,
+        "sellVolume": 90,
+        "isCouponConflict": false,
+        "colorNum": 0,
+        "primaryPicUrl": "https://yanxuan.nosdn.127.net/59bd6ae0307588f6eebf3848a4bd265f.png",
+        "displaySkuId": 300028627,
+        "pieceUnitDesc": "件",
+        "resourcesId": 0,
+        "name": "家用除湿机",
+        "productPlace": "",
+        "counterPrice": 2788,
+        "couponPrice": 0,
+        "retailPrice": 2788,
+        "primary": true,
+        "status": 2,
+        "tagCnts": []
+    },
+    {
+        "scenePicUrl": "https://yanxuan.nosdn.127.net/fb20d7c4ca4c02d9f76d6f5fafa85c9c.png",
+        "listPicUrl": "https://yanxuan.nosdn.127.net/b88f0bdf4ecf581479f9d9a186639f00.png",
+        "tagId": 0,
+        "simpleDesc": "简单悬挂驱蚊，静享无蚊夏日",
+        "primarySkuPreSellPrice": 0,
+        "limitedFlag": 0,
+        "newItemFlag": true,
+        "showPicUrl": "https://yanxuan.nosdn.127.net/b88f0bdf4ecf581479f9d9a186639f00.png",
+        "itemTagList": [
+            {
+                "itemId": 0,
+                "tagId": 0,
+                "freshmanExclusive": false,
+                "name": "新品",
+                "subType": 0,
+                "forbidJump": false,
+                "type": 1
+            }
+        ],
+        "primarySkuPreSellStatus": 0,
+        "pieceNum": 0,
+        "extra": {
+            "resource": {
+                "itemId": "3844029",
+                "materialName": "日本设计 挂式驱蚊网（好物专享）",
+                "rcmdSort": false,
+                "taskType": 1,
+                "itemFrom": 0,
+                "crmUserGroupName": "",
+                "resourcesId": 2,
+                "materialType": "商品id",
+                "itemIdList": [
+                    "3844029"
+                ],
+                "crmUserGroupId": "0",
+                "materialId": "54629340",
+                "taskId": "54629907"
+            },
+            "modelType": 1
+        },
+        "id": 3844029,
+        "sellVolume": 622,
+        "isCouponConflict": false,
+        "colorNum": 0,
+        "primaryPicUrl": "https://yanxuan.nosdn.127.net/b88f0bdf4ecf581479f9d9a186639f00.png",
+        "displaySkuId": 300043049,
+        "pieceUnitDesc": "件",
+        "resourcesId": 0,
+        "name": "日本设计 挂式驱蚊网（好物...",
+        "productPlace": "",
+        "counterPrice": 89,
+        "couponPrice": 0,
+        "retailPrice": 89,
+        "primary": true,
+        "status": 2,
+        "tagCnts": []
+    },
+    {
+        "scenePicUrl": "https://yanxuan.nosdn.127.net/e3c8427fbfadc833ed592310f6e4955f.png",
+        "listPicUrl": "https://yanxuan.nosdn.127.net/4fc7ea43e829af4ed31e09673f68db89.png",
+        "tagId": 0,
+        "simpleDesc": "折合¥11.9/卷，竹浆本色，银离子抑菌",
+        "primarySkuPreSellPrice": 0,
+        "limitedFlag": 0,
+        "newItemFlag": false,
+        "showPicUrl": "https://yanxuan.nosdn.127.net/4fc7ea43e829af4ed31e09673f68db89.png",
+        "itemTagList": [
+            {
+                "itemId": 3829116,
+                "tagId": 127999036,
+                "freshmanExclusive": false,
+                "name": "满赠",
+                "subType": 0,
+                "forbidJump": false,
+                "type": 2
+            }
+        ],
+        "primarySkuPreSellStatus": 0,
+        "pieceNum": 10,
+        "extra": {
+            "resource": {
+                "itemId": "3829116",
+                "materialName": "本色抑菌懒人抹布超值组 50节*10卷",
+                "rcmdSort": false,
+                "taskType": 1,
+                "itemFrom": 0,
+                "crmUserGroupName": "",
+                "resourcesId": 4,
+                "materialType": "商品id",
+                "itemIdList": [
+                    "3829116"
+                ],
+                "crmUserGroupId": "0",
+                "materialId": "54629342",
+                "taskId": "54628884"
+            },
+            "modelType": 1
+        },
+        "id": 3829116,
+        "sellVolume": 116,
+        "isCouponConflict": false,
+        "colorNum": 0,
+        "primaryPicUrl": "https://yanxuan.nosdn.127.net/4fc7ea43e829af4ed31e09673f68db89.png",
+        "displaySkuId": 300028628,
+        "pieceUnitDesc": "件",
+        "resourcesId": 0,
+        "name": "本色抑菌懒人抹布超值组 5...",
+        "productPlace": "",
+        "counterPrice": 119,
+        "couponPrice": 0,
+        "retailPrice": 119,
+        "primary": true,
+        "status": 2,
+        "tagCnts": [
+            {
+                "className": "gradientPrice",
+                "txt": "满赠"
+            }
+        ]
+    },
+    {
+        "scenePicUrl": "https://yanxuan.nosdn.127.net/18345582945d3a2ecbccceb35d640b60.jpg",
+        "listPicUrl": "https://yanxuan.nosdn.127.net/20818ef4e7d98ca6356b3ee59cc315ea.png",
+        "tagId": 0,
+        "simpleDesc": "小红书爆款推荐，越传统越时髦。",
+        "primarySkuPreSellPrice": 0,
+        "limitedFlag": 0,
+        "newItemFlag": false,
+        "showPicUrl": "https://yanxuan.nosdn.127.net/20818ef4e7d98ca6356b3ee59cc315ea.png",
+        "itemTagList": [],
+        "primarySkuPreSellStatus": 0,
+        "pieceNum": 0,
+        "extra": {
+            "resource": {
+                "itemId": "3803001",
+                "materialName": "福禄寿喜 银铸金手镯",
+                "rcmdSort": false,
+                "taskType": 1,
+                "itemFrom": 0,
+                "crmUserGroupName": "",
+                "resourcesId": 6,
+                "materialType": "商品id",
+                "itemIdList": [
+                    "3803001"
+                ],
+                "crmUserGroupId": "0",
+                "materialId": "54370016",
+                "taskId": "54628889"
+            },
+            "modelType": 1
+        },
+        "id": 3803001,
+        "sellVolume": 51,
+        "isCouponConflict": false,
+        "colorNum": 0,
+        "primaryPicUrl": "https://yanxuan.nosdn.127.net/20818ef4e7d98ca6356b3ee59cc315ea.png",
+        "displaySkuId": 300007110,
+        "pieceUnitDesc": "件",
+        "resourcesId": 0,
+        "name": "福禄寿喜 银铸金手镯",
+        "productPlace": "",
+        "counterPrice": 1388,
+        "couponPrice": 0,
+        "retailPrice": 1388,
+        "primary": true,
+        "status": 2,
+        "tagCnts": []
+    },
+    {
+        "scenePicUrl": "https://yanxuan.nosdn.127.net/46697206175e1acb50807d47faea9667.jpg",
+        "listPicUrl": "https://yanxuan.nosdn.127.net/2505554068a8deb38a93a0213321fe41.png",
+        "tagId": 0,
+        "simpleDesc": "干湿分区包装，锁住鲜脆口感",
+        "primarySkuPreSellPrice": 0,
+        "limitedFlag": 0,
+        "newItemFlag": false,
+        "showPicUrl": "https://yanxuan.nosdn.127.net/2505554068a8deb38a93a0213321fe41.png",
+        "itemTagList": [
+            {
+                "itemId": 3550202,
+                "tagId": 128004061,
+                "freshmanExclusive": false,
+                "name": "加价购",
+                "subType": 0,
+                "forbidJump": false,
+                "type": 2
+            },
+            {
+                "itemId": 0,
+                "tagId": 0,
+                "freshmanExclusive": false,
+                "name": "每满99减15券",
+                "subType": 0,
+                "forbidJump": false,
+                "type": 5
+            }
+        ],
+        "primarySkuPreSellStatus": 0,
+        "pieceNum": 0,
+        "extra": {
+            "resource": {
+                "itemId": "3550202",
+                "materialName": "鲜萃每日坚果 ",
+                "rcmdSort": false,
+                "taskType": 1,
+                "itemFrom": 0,
+                "crmUserGroupName": "",
+                "resourcesId": 7,
+                "materialType": "商品id",
+                "itemIdList": [
+                    "3550202"
+                ],
+                "crmUserGroupId": "0",
+                "materialId": "54154601",
+                "taskId": "54154591"
+            },
+            "modelType": 1
+        },
+        "id": 3550202,
+        "sellVolume": 5326,
+        "isCouponConflict": false,
+        "colorNum": 0,
+        "primaryPicUrl": "https://yanxuan.nosdn.127.net/2505554068a8deb38a93a0213321fe41.png",
+        "displaySkuId": 300002051,
+        "pieceUnitDesc": "件",
+        "resourcesId": 0,
+        "name": "鲜萃每日坚果 25克*7袋",
+        "productPlace": "2个规格",
+        "counterPrice": 39,
+        "couponPrice": 0,
+        "retailPrice": 39,
+        "primary": true,
+        "status": 2,
+        "tagCnts": [
+            {
+                "className": "gradientPrice",
+                "txt": "加价购"
+            },
+            {
+                "className": "coupon",
+                "txt": "每满99减15券"
+            }
+        ]
+    },
+    {
+        "scenePicUrl": "https://yanxuan.nosdn.127.net/be8d3d5a1c17776124a70e5d2800e73d.png",
+        "listPicUrl": "https://yanxuan.nosdn.127.net/cd57c4d33950f018d79bd651a25b221b.png",
+        "tagId": 0,
+        "simpleDesc": "百变发型，你的专属宝藏魔盒",
+        "primarySkuPreSellPrice": 0,
+        "limitedFlag": 0,
+        "newItemFlag": true,
+        "itemTagList": [
+            {
+                "itemId": 0,
+                "tagId": 0,
+                "freshmanExclusive": false,
+                "name": "新品",
+                "subType": 0,
+                "forbidJump": false,
+                "type": 1
+            }
+        ],
+        "primarySkuPreSellStatus": 0,
+        "pieceNum": 0,
+        "extra": {
+            "modelType": 3
+        },
+        "id": 3406040,
+        "sellVolume": 1324,
+        "isCouponConflict": false,
+        "colorNum": 3,
+        "primaryPicUrl": "https://yanxuan.nosdn.127.net/3de44bb4befe184a2b188dd5b64401f4.png",
+        "displaySkuId": 300007101,
+        "pieceUnitDesc": "件",
+        "resourcesId": 0,
+        "name": "盒装百变装饰发绳",
+        "productPlace": "",
+        "counterPrice": 19.9,
+        "couponPrice": 4.9,
+        "retailPrice": 19.9,
+        "primary": false,
+        "status": 2,
+        "tagCnts": []
+    },
+    {
+        "scenePicUrl": "https://yanxuan.nosdn.127.net/925d5cf992bad9742de3199c6e986173.png",
+        "listPicUrl": "https://yanxuan.nosdn.127.net/4c3e8315683197886c4eb4feba9ace4a.png",
+        "tagId": 0,
+        "simpleDesc": "温和止痒，清凉舒爽",
+        "primarySkuPreSellPrice": 0,
+        "limitedFlag": 0,
+        "newItemFlag": true,
+        "itemTagList": [
+            {
+                "itemId": 0,
+                "tagId": 0,
+                "freshmanExclusive": false,
+                "name": "新品",
+                "subType": 0,
+                "forbidJump": false,
+                "type": 1
+            }
+        ],
+        "primarySkuPreSellStatus": 0,
+        "pieceNum": 0,
+        "extra": {
+            "modelType": 3
+        },
+        "id": 3552001,
+        "sellVolume": 11731,
+        "isCouponConflict": false,
+        "colorNum": 0,
+        "primaryPicUrl": "https://yanxuan.nosdn.127.net/a3a8b2d59bce415e253c8d8e23fc6589.png",
+        "displaySkuId": 300005519,
+        "pieceUnitDesc": "件",
+        "resourcesId": 0,
+        "name": "清凉舒缓 蚊虫叮咬温和止痒液",
+        "productPlace": "",
+        "counterPrice": 12.9,
+        "couponPrice": 0,
+        "retailPrice": 12.9,
+        "primary": false,
+        "status": 2
+    },
+    {
+        "scenePicUrl": "https://yanxuan.nosdn.127.net/593a0e476c2364bac11f65e4af3eac35.png",
+        "listPicUrl": "https://yanxuan-item.nosdn.127.net/077a3ccfc669500048051494de2e47ab.png",
+        "tagId": 0,
+        "simpleDesc": "轻柔包覆，柔爽舒适",
+        "primarySkuPreSellPrice": 0,
+        "limitedFlag": 0,
+        "newItemFlag": true,
+        "itemTagList": [
+            {
+                "itemId": 0,
+                "tagId": 0,
+                "freshmanExclusive": false,
+                "name": "新品",
+                "subType": 0,
+                "forbidJump": false,
+                "type": 1
+            }
+        ],
+        "primarySkuPreSellStatus": 0,
+        "pieceNum": 0,
+        "extra": {
+            "modelType": 3
+        },
+        "id": 3803003,
+        "sellVolume": 4076,
+        "isCouponConflict": false,
+        "colorNum": 3,
+        "primaryPicUrl": "https://yanxuan.nosdn.127.net/dd17a2568c133b642930acbfe6923d32.png",
+        "displaySkuId": 300014514,
+        "pieceUnitDesc": "件",
+        "resourcesId": 0,
+        "name": "女式基础舒柔莫代尔内裤",
+        "productPlace": "",
+        "counterPrice": 19.9,
+        "couponPrice": 19.9,
+        "retailPrice": 19.9,
+        "primary": false,
+        "status": 2
+    }
+]

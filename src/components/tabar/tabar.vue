@@ -46,7 +46,7 @@ export default {
     color: #f40;
 }
 #tabar{
-    position: absolute;
+    position: fixed;
     left: 0;
     bottom: 0;
     width:100%;
@@ -66,6 +66,9 @@ li{
     flex: 1;
     height: 100%;
     justify-content: space-around;
+}
+li i{
+    font-size: .18rem;
 }
 </style>
 

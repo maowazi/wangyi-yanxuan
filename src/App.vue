@@ -19,23 +19,10 @@ export default {
         Tabar
     },
     created() {
-        // axios("/api/home/jvjia_shenghuo")
-        //     .then((res)=>{
-        //         if(res.status === 200 && res.data.code === 0){
-        //             let newdata = res.data.data.map(({id,name})=>({id,name}))
-        //             this.list = newdata;
-        //         }else{
-        //             console.log("失败");
-        //         }
-        //     })
-        //     .catch((err)=>{
-        //         console.log(err)
-        //     })
 
         homeAxiosData().then((res)=>{
             console.log(res)
         });
-        
     },
 }
 </script>
