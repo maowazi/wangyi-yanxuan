@@ -1,5 +1,6 @@
 <template>
-    <swiper :options="swiperOption" class="swiper-container">
+<!-- 因为是异步请求数据所以会出现不能循环轮播,给组件加一个判断当数据有长度(个数不是零时再创建) -->
+    <swiper v-if="imglist.length" :options="swiperOption" class="swiper-container">
         <swiper-slide :style='styleData' v-for="item in imglist" :key="item.id">
                 <img :src="item.picUrl"/>
         </swiper-slide>
@@ -13,17 +14,16 @@
         data() {
             return {
                 swiperOption: {
-                    loop: true,
-                    speed:1500,
+                    loop: true,      //让其循环轮播
+                    speed:1500,      //图片划过的速度
                     autoplay: {
-                        delay: 3000,
-                        disableOnInteraction: false
+                        delay: 3000, //多久滑动一次
+                        disableOnInteraction: false   //鼠标滑动后依然自动轮播
                     },
                     pagination: {
-                        el: ".swiper-pagination",
-                        clickable: true
-                    },
-                    updateTranslate:true
+                        el: ".swiper-pagination",     //找到小圆点
+                        clickable: true               //点击时跳到当前图片
+                    }
                 }
             };
         },
@@ -50,8 +50,9 @@
 </script>
 <style scoped>
 
-    .box img{
-        width: 100%;
-        height: 100%;
-    }
+.box img{
+    width: 100%;
+    height: 100%;
+}
+
 </style>
