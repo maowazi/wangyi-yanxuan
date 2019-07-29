@@ -1,0 +1,44 @@
+[
+    {
+        "backgroundUrl": "http://yanxuan.nosdn.127.net/dc4bbc16d3946fddb71382f8132210b9.png",
+        "picUrl": "http://yanxuan.nosdn.127.net/4505b681a9dbabb1aee6b7ea0922b96c.png",
+        "activityPrice": "¥28.8",
+        "subTitle": "抢超值神券",
+        "originPrice": "¥38",
+        "tag": "",
+        "title": "福利社",
+        "targetUrl": "https://m.you.163.com/saleCenter/index",
+        "showPicUrl": "http://yanxuan.nosdn.127.net/4505b681a9dbabb1aee6b7ea0922b96c.png",
+        "benefitSpot": "享今日特价"
+    },
+    {
+        "backgroundUrl": "http://yanxuan.nosdn.127.net/fccd022ad6cbf158a6e2cb694f7a281a.png",
+        "picUrl": "http://yanxuan.nosdn.127.net/33310fd00d8dcc451c1321d20ddc9e0b.png",
+        "activityPrice": "¥59.9",
+        "subTitle": "超值1元团",
+        "originPrice": "¥79",
+        "tag": "全场包邮",
+        "title": "严选一起拼",
+        "targetUrl": "https://m.you.163.com/pin/item/list",
+        "showPicUrl": "http://yanxuan.nosdn.127.net/d82be6b363e282825bf858696ce40ee3.png",
+        "benefitSpot": ""
+    },
+    {
+        "backgroundUrl": "http://yanxuan.nosdn.127.net/f27c3ec2a30b64debc57285b76c4d03d.png",
+        "picUrl": "https://yanxuan.nosdn.127.net/fb59be6fcbbf5c494a0a92d71369e3ef.gif",
+        "subTitle": "领取每月礼券",
+        "tag": "",
+        "title": "会员俱乐部",
+        "targetUrl": "https://m.you.163.com/membership/index#monthGift",
+        "benefitSpot": ""
+    },
+    {
+        "backgroundUrl": "http://yanxuan.nosdn.127.net/807ed8cee518d6730180b48484f01ff2.png",
+        "picUrl": "https://yanxuan.nosdn.127.net/15addf04475e65e0c0eb854f8a7c27aa.gif",
+        "subTitle": "限时限量0元兑",
+        "tag": "",
+        "title": "积分兑换",
+        "targetUrl": "https://m.you.163.com/points/index",
+        "benefitSpot": ""
+    }
+]

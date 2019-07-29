@@ -28,7 +28,8 @@ export default {
             d:0,
             x:0,
             f:0,
-            s:0
+            s:0,
+            timer:null
         }
     },
     computed: {
@@ -39,10 +40,13 @@ export default {
     created() {
         let stardate = new Date();
         let enddate = new Date("2019.7.30 18:00:00");
-        setInterval(()=>{
-            this.x = parseInt(parseInt(diff(new Date(),new Date("2019.7.30 18:00:00"))) / 60 / 60) < 10 ? "0" + parseInt(parseInt(diff(new Date(),new Date("2019.7.30 18:00:00"))) / 60 / 60) : parseInt(parseInt(diff(new Date(),new Date("2019.7.30 18:00:00"))) / 60 / 60);
-            this.f = parseInt( parseInt(diff(new Date(),new Date("2019.7.30 18:00:00"))) / 60 ) % 60 < 10 ? "0" + parseInt( parseInt(diff(new Date(),new Date("2019.7.30 18:00:00"))) / 60 ) % 60 : parseInt( parseInt(diff(new Date(),new Date("2019.7.30 18:00:00"))) / 60 ) % 60;
-            this.s = parseInt(diff(new Date(),new Date("2019.7.30 18:00:00"))) % 60 < 10 ? "0" + parseInt(diff(new Date(),new Date("2019.7.30 18:00:00"))) % 60 : parseInt(diff(new Date(),new Date("2019.7.30 18:00:00"))) % 60;
+        this.timer = setInterval(()=>{
+            this.x = parseInt(parseInt(diff(new Date(),enddate)) / 60 / 60) < 10 ? "0" + parseInt(parseInt(diff(new Date(),enddate)) / 60 / 60) : parseInt(parseInt(diff(new Date(),enddate)) / 60 / 60);
+            this.f = parseInt( parseInt(diff(new Date(),enddate)) / 60 ) % 60 < 10 ? "0" + parseInt( parseInt(diff(new Date(),enddate)) / 60 ) % 60 : parseInt( parseInt(diff(new Date(),enddate)) / 60 ) % 60;
+            this.s = parseInt(diff(new Date(),enddate)) % 60 < 10 ? "0" + parseInt(diff(new Date(),enddate)) % 60 : parseInt(diff(new Date(),enddate)) % 60;
+            if(this.x <= 0 && this.f <= 0 && this.s <= 0){
+                clearInterval(this.timer);
+            }
         },1000);
         this.$store.dispatch("homeStore/actionhomeqianggou",HOME_QIANGGOU)
 		

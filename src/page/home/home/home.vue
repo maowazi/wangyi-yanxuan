@@ -21,6 +21,8 @@
                 <qianggou/>
                 <xinpinsoufa/>
                 <renqituijian/>
+                <leimurexiao/>
+                <fulizhuanqv/>
         </div>
         </scroll>
     </div>
@@ -43,7 +45,9 @@ export default {
         ChaoZhi:()=>import("./children/chaoZhi9-9zhuanqv"),
         qianggou:()=>import ("./children/xianshiqianggou"),
         xinpinsoufa:()=>import("./children/homexinpinshoufa"),
-        renqituijian:()=>import("./children/renqituijian")
+        renqituijian:()=>import("./children/renqituijian"),
+        leimurexiao:()=>import ("./children/leimurexiao"),
+        fulizhuanqv:()=>import("./children/fulizuanqv")
     },
     computed: {
         ...mapGetters({

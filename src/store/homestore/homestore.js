@@ -8,7 +8,9 @@ const state = {
     Homescrolllistdata: [],
     Homeqianggoudata: [],
     Homexinpinshoufadata: [],
-    Homerenqituijiandata:[]
+    Homerenqituijiandata: [],
+    Homeleimurexiaodata: [],
+    Homefulizhuanqvdata:[]
 }
 const getters = {
     senddata(state) {
@@ -36,7 +38,13 @@ const getters = {
         return state.Homexinpinshoufadata
     },
     gethomerenqituijianadata(state) {
-        return state.Homerenqituijiandata
+        return state.Homerenqituijiandata.splice(0,1)
+    },
+    gethomeleimurexiaodata(state) {
+        return state.Homeleimurexiaodata.splice(0,2)
+    },
+    gethomefulizhuanqvdata(state) {
+        return state.Homefulizhuanqvdata
     }
 }
 const mutations = {
@@ -72,8 +80,16 @@ const mutations = {
         state.Homexinpinshoufadata = params;
     },
     mutationHomerenqituijiandata(state, params) {
-
+        
         state.Homerenqituijiandata = params;
+    },
+    mutationHomeleimurexiaodata(state, params) {
+
+        state.Homeleimurexiaodata = params;
+    },
+    mutationHomefulizhuanqvdata(state, params) {
+
+        state.Homefulizhuanqvdata = params;
     }
 }
 const actions = {
@@ -187,8 +203,34 @@ const actions = {
             .then((res) => {
                 if (res.status === 200 && res.data.code === 0) {
                     let data = res.data.data.map(({ id, name, simpleDesc, counterPrice, primaryPicUrl }) => ({ id, name, simpleDesc, counterPrice, primaryPicUrl }));
-                    
                     commit.commit("mutationHomerenqituijiandata", data);
+                }
+            })
+            .catch((err) => {
+                console.log(err)
+            })
+    },
+    actionhomeleimurexiao(commit, params) {
+        axios.get(params)
+            .then((res) => {
+                if (res.status === 200 && res.data.code === 0) {
+                    let data = res.data.data.map(({ categoryName, showPicUrl }) => ({ categoryName, showPicUrl }));
+                    
+                    commit.commit("mutationHomeleimurexiaodata", data);
+                }
+            })
+            .catch((err) => {
+                console.log(err)
+            })
+    },
+    actionhomefulizhuanqv(commit, params) {
+        axios.get(params)
+            .then((res) => {
+                if (res.status === 200 && res.data.code === 0) {
+                    let data = res.data.data.map(({ title, activityPrice, originPrice, benefitSpot, showPicUrl, subTitle, tag }) => ({ title, activityPrice, originPrice, benefitSpot, showPicUrl, subTitle, tag }));
+                    console.log(data)
+
+                    commit.commit("mutationHomefulizhuanqvdata", data);
                 }
             })
             .catch((err) => {
