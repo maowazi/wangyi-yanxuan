@@ -6,9 +6,11 @@
                 <p>{{item.subTitle}}</p>
                 <span>{{item.benefitSpot}}</span>
             </div>
-            <div :style="{background:'url('}">
-                <span>绝地反击的是</span>
-                <i></i>
+            <div :style="{backgroundImage:`url(${item.showPicUrl})`,backgroundSize:`.6rem`,backgroundRepeat:`no-repeat`}">
+                <div>
+                    <span>{{item.activityPrice}}</span>
+                    <i>{{item.originPrice}}</i>
+                </div>
             </div>
         </div>  
     </div>
@@ -55,6 +57,29 @@ export default {
 }
 .fulizhuanqv>div:nth-child(4){
     background: seashell;
+}
+.fulizhuanqv>div>div:last-child{
+    display: flex;
+    width: .6rem;
+    justify-content: center;
+}
+.fulizhuanqv>div>div:last-child>div{
+    display: flex;
+    flex-direction: column;
+    background:rgba(255,68,0,.3);
+    padding: .05rem;
+    height: .3rem;
+    border-radius: 50%;
+    color: #fff;
+}
+.fulizhuanqv>div>div:last-child>div i{
+    text-decoration: line-through;
+}
+.fulizhuanqv>div:nth-child(3)>div>div{
+    background: none;
+}
+.fulizhuanqv>div:nth-child(4)>div>div{
+    background: none;
 }
 </style>
 

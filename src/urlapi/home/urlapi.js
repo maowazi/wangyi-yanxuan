@@ -8,7 +8,10 @@ const HOME_QIANGGOU = "/api/home/home_qianggou";
 const HOME_XINPINSOUFA = "/api/home/home_xinpinsoufa";
 const HOME_RENQITUIJIAN = "/api/home/home_renqituijian";
 const HOME_LEIMUREXIAO = "/api/home/home_leimurexiao";
-const HOME_FULIZUANQV = "/api/home/home_fulizuanqv"; 
+const HOME_FULIZUANQV = "/api/home/home_fulizuanqv";
+const HOME_PINPAIZGIGONG = "/api/home/home_pinpaizhigong";
+const HOME_JINFXUANZHUANTI = "/api/home/home_wuhanchufang";
+const HOME_ZHONGCHOU = "/api/home/home_zhongchou"; 
 export {
     JVJIA_SHENGHUO,
     HOME_BANNER_SWIPER,
@@ -20,5 +23,8 @@ export {
     HOME_XINPINSOUFA,
     HOME_RENQITUIJIAN,
     HOME_LEIMUREXIAO,
-    HOME_FULIZUANQV
+    HOME_FULIZUANQV,
+    HOME_PINPAIZGIGONG,
+    HOME_JINFXUANZHUANTI,
+    HOME_ZHONGCHOU
 }

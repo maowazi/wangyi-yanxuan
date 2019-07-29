@@ -23,6 +23,9 @@
                 <renqituijian/>
                 <leimurexiao/>
                 <fulizhuanqv/>
+                <pinpaizhigong/>
+                <jingxuanzhungti/>
+                <zhongchou/>
         </div>
         </scroll>
     </div>
@@ -47,7 +50,10 @@ export default {
         xinpinsoufa:()=>import("./children/homexinpinshoufa"),
         renqituijian:()=>import("./children/renqituijian"),
         leimurexiao:()=>import ("./children/leimurexiao"),
-        fulizhuanqv:()=>import("./children/fulizuanqv")
+        fulizhuanqv:()=>import("./children/fulizuanqv"),
+        pinpaizhigong:()=>import ("./children/pinpaizhigong"),
+        jingxuanzhungti:()=>import ("./children/jingxuanzhuanti"),
+        zhongchou:()=>import ("./children/zhongchou")
     },
     computed: {
         ...mapGetters({
@@ -98,7 +104,6 @@ export default {
 .box{
     background: #ccc;
 }
-
 
 
 </style>

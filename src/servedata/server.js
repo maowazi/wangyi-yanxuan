@@ -77,6 +77,27 @@ server.get("/api/home/home_fulizuanqv", (req, res) => {
         data: require("./data/home_fulizhuanqv")
     });
 })
+server.get("/api/home/home_pinpaizhigong", (req, res) => {
+    res.json({
+        code: 0,
+        msg: "OK",
+        data: require("./data/home_haiwaizhigong")
+    });
+})
+server.get("/api/home/home_wuhanchufang", (req, res) => {
+    res.json({
+        code: 0,
+        msg: "OK",
+        data: require("./data/home_wuhanchufang")
+    });
+})
+server.get("/api/home/home_zhongchou", (req, res) => {
+    res.json({
+        code: 0,
+        msg: "OK",
+        data: require("./data/home_zhongchou")
+    });
+})
 server.listen(8888, (err) => {
     if (err) {
         console.log("服务启动失败");

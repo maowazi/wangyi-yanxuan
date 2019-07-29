@@ -10,7 +10,10 @@ const state = {
     Homexinpinshoufadata: [],
     Homerenqituijiandata: [],
     Homeleimurexiaodata: [],
-    Homefulizhuanqvdata:[]
+    Homefulizhuanqvdata: [],
+    Homehaiwaizhigongdata: [],
+    Homejingpinzhuantidata:[],
+    Homexhongchoudata:[]
 }
 const getters = {
     senddata(state) {
@@ -45,6 +48,15 @@ const getters = {
     },
     gethomefulizhuanqvdata(state) {
         return state.Homefulizhuanqvdata
+    },
+    gethomehaiwaizhigongdata(state) {
+        return state.Homehaiwaizhigongdata
+    },
+    gethomejingpinzhuantidata(state) {
+        return state.Homejingpinzhuantidata
+    },
+    gethomezhongchoudata(state) {
+        return state.Homexhongchoudata
     }
 }
 const mutations = {
@@ -90,6 +102,18 @@ const mutations = {
     mutationHomefulizhuanqvdata(state, params) {
 
         state.Homefulizhuanqvdata = params;
+    },
+    mutationHomehaiwaizhigongdata(state, params) {
+        
+        state.Homehaiwaizhigongdata = params;
+    },
+    mutationHomejingpinzhuantidata(state, params) {
+
+        state.Homejingpinzhuantidata = params;
+    },
+    mutationHomezhongchoudata(state, params) {
+
+        state.Homexhongchoudata = params;
     }
 }
 const actions = {
@@ -228,9 +252,48 @@ const actions = {
             .then((res) => {
                 if (res.status === 200 && res.data.code === 0) {
                     let data = res.data.data.map(({ title, activityPrice, originPrice, benefitSpot, showPicUrl, subTitle, tag }) => ({ title, activityPrice, originPrice, benefitSpot, showPicUrl, subTitle, tag }));
-                    console.log(data)
+                    
 
                     commit.commit("mutationHomefulizhuanqvdata", data);
+                }
+            })
+            .catch((err) => {
+                console.log(err)
+            })
+    },
+    actionhomepinpaizhigong(commit, params) {
+        axios.get(params)
+            .then((res) => {
+                if (res.status === 200 && res.data.code === 0) {
+                    let data = res.data.data.map(({ id, name, picUrl, simpleDesc, floorPrice }) => ({ id, name, picUrl, simpleDesc, floorPrice }));
+                   
+                    commit.commit("mutationHomehaiwaizhigongdata", data);
+                }
+            })
+            .catch((err) => {
+                console.log(err)
+            })
+    },
+    actionhomejingxuanzhuanti(commit, params) {
+        axios.get(params)
+            .then((res) => {
+                if (res.status === 200 && res.data.code === 0) {
+                    let data = res.data.data.map(({ title, topicId, subtitle, scenePicUrl, priceInfo }) => ({ title, topicId, subtitle, scenePicUrl, priceInfo }));
+                    
+                    commit.commit("mutationHomejingpinzhuantidata", data);
+                }
+            })
+            .catch((err) => {
+                console.log(err)
+            })
+    },
+    actionhomezhongchou(commit, params) {
+        axios.get(params)
+            .then((res) => {
+                if (res.status === 200 && res.data.code === 0) {
+                    let data = res.data.data.map(({ name, picUrl, showRetailPrice, supportNum }) => ({ name, picUrl, showRetailPrice, supportNum }));
+                    console.log(data)
+                    commit.commit("mutationHomezhongchoudata", data);
                 }
             })
             .catch((err) => {
