@@ -1,7 +1,7 @@
 <template>
 <div class="swiperbox">
     <h3>私人定制</h3>
-    <swiper :options="swiperOption" class="swiper-containe">
+    <swiper  v-if="homescrolllist.length" :options="swiperOption" class="swiper-containe">
         <swiper-slide>
             <div class="scrolllistbox">
                 <div class="listinner">
