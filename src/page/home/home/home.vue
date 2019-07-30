@@ -28,6 +28,7 @@
                 <zhongchou/>
         </div>
         </scroll>
+        <mengban/>
     </div>
 </template>
 <script>
@@ -53,7 +54,8 @@ export default {
         fulizhuanqv:()=>import("./children/fulizuanqv"),
         pinpaizhigong:()=>import ("./children/pinpaizhigong"),
         jingxuanzhungti:()=>import ("./children/jingxuanzhuanti"),
-        zhongchou:()=>import ("./children/zhongchou")
+        zhongchou:()=>import ("./children/zhongchou"),
+        mengban:()=>import ("./children/mengban")
     },
     computed: {
         ...mapGetters({
@@ -82,13 +84,14 @@ export default {
     top: .4rem;
     left: 0;
     right: 0;
+    margin-right: .4rem;
 }
 .herdernav ul{
     display: flex;
     height: 100%;
     align-items: center;
     min-width: max-content;
-    padding: 0 .4rem 0 0;
+   
 }
 .herdernav ul li{
     padding: 0 .08rem;
