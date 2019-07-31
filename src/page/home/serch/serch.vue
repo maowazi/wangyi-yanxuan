@@ -1,7 +1,7 @@
 <template>
     <div class="serch">
         <h1>网易严选</h1>
-        <div><i class="iconfont icon-fangdajing"></i><p>搜索商品,公21616件好物品</p></div>
+        <div><i class="iconfont icon-fangdajing"></i><p>搜索商品,共21616件好物品</p></div>
         <div>登录</div>
     </div>
 </template>

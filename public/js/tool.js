@@ -74,46 +74,61 @@ function diff(startTime,endTime){
 }
 //小型活动倒计时,总小时,分钟,秒
 function huodong() {
-    let stardate = new Date();
-    let enddate = new Date("2019.7.30 18:00:00");
-    setInterval(() => {
-        this.x = parseInt(parseInt(diff(new Date(), new Date("2019.7.30 18:00:00"))) / 60 / 60) < 10 ? "0" + parseInt(parseInt(diff(new Date(), new Date("2019.7.30 18:00:00"))) / 60 / 60) : parseInt(parseInt(diff(new Date(), new Date("2019.7.30 18:00:00"))) / 60 / 60);
-        this.f = parseInt(parseInt(diff(new Date(), new Date("2019.7.30 18:00:00"))) / 60) % 60 < 10 ? "0" + parseInt(parseInt(diff(new Date(), new Date("2019.7.30 18:00:00"))) / 60) % 60 : parseInt(parseInt(diff(new Date(), new Date("2019.7.30 18:00:00"))) / 60) % 60;
-        this.s = parseInt(diff(new Date(), new Date("2019.7.30 18:00:00"))) % 60 < 10 ? "0" + parseInt(diff(new Date(), new Date("2019.7.30 18:00:00"))) % 60 : parseInt(diff(new Date(), new Date("2019.7.30 18:00:00"))) % 60;
-    }, 1000)
+
+    let enddate = new Date("2019.7.30 21:40:00");
+    let x, f, s = 0;
+    this.timer = setInterval(() => {
+        let stardate = new Date();
+        x = parseInt(parseInt(diff(stardate, enddate)) / 60 / 60);
+        f = parseInt(parseInt(diff(stardate, enddate)) / 60) % 60;
+        s = parseInt(diff(stardate, enddate)) % 60;
+        if (x <= 0 && f <= 0 && s <= 0) {
+            this.x = 0;
+            this.f = 0;
+            this.s = 0;
+            clearInterval(this.timer)
+        } else {
+            console.log()
+            this.x = x < 10 ? "0" + x : x;
+            this.f = f < 10 ? "0" + f : f;
+            this.s = s < 10 ? "0" + s : s;
+        }
+    }, 1000);
 
 }
 
 //活动到计时
-// var h1 = document.getElementsByTagName("h1")[0];
-var xian = new Date();
-var houlai = new Date("2019.7.30 21:06:30");
-var miao = diff(xian, houlai);
-//console.log(miao);
-function tim() {
-    if (miao < 0) {
-        h1.innerHTML = "活动时间已结束";
-        return;
-    }
-    var d = parseInt(miao / 60 / 60 / 24);
-    var x = parseInt(((miao / 60 / 60 / 24) - d) * 24);
-    var f = parseInt((((miao / 60 / 60 / 24) - d) * 24 - x) * 60);
-    var s = parseInt(((((miao / 60 / 60 / 24) - d) * 24 - x) * 60 - f) * 60);
-    // h1.innerHTML = "距离活动结束还有 " + d + "天" + x + "小时" + f + "分 " + s + "秒";
-    //console.log(str);
-    //h1.innerHTML = str;
-}
-tim();
-var timer = setInterval(function () {
-    if (miao < 0) {
-        clearInterval(timer);
+function aa() {
+    
+    // var h1 = document.getElementsByTagName("h1")[0];
+    var xian = new Date();
+    var houlai = new Date("2019.7.30 21:06:30");
+    var miao = diff(xian, houlai);
+    //console.log(miao);
+    function tim() {
+        if (miao < 0) {
+            h1.innerHTML = "活动时间已结束";
+            return;
+        }
+        var d = parseInt(miao / 60 / 60 / 24);
+        var x = parseInt(((miao / 60 / 60 / 24) - d) * 24);
+        var f = parseInt((((miao / 60 / 60 / 24) - d) * 24 - x) * 60);
+        var s = parseInt(((((miao / 60 / 60 / 24) - d) * 24 - x) * 60 - f) * 60);
+        // h1.innerHTML = "距离活动结束还有 " + d + "天" + x + "小时" + f + "分 " + s + "秒";
+        //console.log(str);
+        //h1.innerHTML = str;
     }
     tim();
-    miao--;
-}, 1000);
-		//console.log(d,m,s);
+    var timer = setInterval(function () {
+        if (miao < 0) {
+            clearInterval(timer);
+        }
+        tim();
+        miao--;
+    }, 1000);
+    //console.log(d,m,s);
 
-
+}
 
 //跨IE8以下浏览器兼容通过className获取元素集合
 function getByClassName(className){

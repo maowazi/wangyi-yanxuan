@@ -6,7 +6,6 @@ import matter from "./matter/matter";
 import cart from "./cart/cart";
 import mine from "./mine/mine";
 Vue.use(Router)
-
 const routers = [
     ...Home,
     ...classaction,

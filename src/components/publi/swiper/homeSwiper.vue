@@ -1,7 +1,7 @@
 <template>
 <!-- 因为是异步请求数据所以会出现不能循环轮播,给组件加一个判断当数据有长度(个数不是零时再创建) -->
     <swiper v-if="imglist.length" :options="swiperOption" class="swiper-container">
-        <swiper-slide :style='styleData' v-for="item in imglist" :key="item.id">
+        <swiper-slide :style='styleData' v-for="(item,index) in imglist" :key="index">
                 <img :src="item.picUrl"/>
         </swiper-slide>
         <div class="swiper-pagination" slot="pagination"></div>
@@ -29,7 +29,8 @@
         },
         props:{
             imglist:{
-                type:Array
+                type:Array,
+                required:true
             },
             styleData:{
                 type:Object,

@@ -14,7 +14,7 @@ export default {
             click: true,
             tap:true
         })
-    },
+    }
 }
 </script>
 <style scoped>

@@ -98,6 +98,20 @@ server.get("/api/home/home_zhongchou", (req, res) => {
         data: require("./data/home_zhongchou")
     });
 })
+server.get("/api/home/home_pronlist", (req, res) => {
+    res.json({
+        code: 0,
+        msg: "OK",
+        data: require("./data/productlist/productlist")
+    });
+})
+server.get("/api/home/home_bannerlist", (req, res) => {
+    res.json({
+        code: 0,
+        msg: "OK",
+        data: require("./data/bannerliat/bannerlist")
+    });
+})
 server.listen(8888, (err) => {
     if (err) {
         console.log("服务启动失败");

@@ -3,32 +3,39 @@
         <Serch/>
         <scroll class="herdernav">
            <ul>
-               <li v-for="item in homenavdata" 
+               <li v-for="(item,index) in homenavdata" 
                :key="item.id"
+               :class="{active:selectIndex === item.id}"
+               @click="hangselect(item.id,index)"
                >
                {{item.name}}
                </li>
            </ul>
         </scroll>
-        <scroll class="contentinner">
-        <div class="box">
-                <Swipe :imglist="homebannerdata"></Swipe>
-                <xieyi/>
-                <xinpinlist/>
-                <GifImg/>
-                <ChaoZhi/>
-                <scrolllist/>
-                <qianggou/>
-                <xinpinsoufa/>
-                <renqituijian/>
-                <leimurexiao/>
-                <fulizhuanqv/>
-                <pinpaizhigong/>
-                <jingxuanzhungti/>
-                <zhongchou/>
-        </div>
+        <scroll class="contentinner">     <!--滚动视图只会滚动第一个元素-->
+            <div class="box">
+                <div  v-show="isShow">
+                    <Swipe :imglist="homebannerdata"></Swipe>
+                    <xieyi/>
+                    <xinpinlist/>
+                    <GifImg/>
+                    <ChaoZhi/>
+                    <scrolllist/>
+                    <qianggou/>
+                    <xinpinsoufa/>
+                    <renqituijian/>
+                    <leimurexiao/>
+                    <fulizhuanqv/>
+                    <pinpaizhigong/>
+                    <jingxuanzhungti/>
+                    <zhongchou/>
+                </div>
+                <div v-show="elseshow">
+                    <homelist v-model="selectIndex" :index="index"/>
+                </div>
+            </div>
         </scroll>
-        <mengban/>
+        <mengban v-model="selectIndex"/>
     </div>
 </template>
 <script>
@@ -38,7 +45,10 @@ import {HOME_BANNER_SWIPER} from "../../../urlapi/home/urlapi";
 export default {
     data() {
         return {
-            
+            selectIndex:-1,
+            isShow:true,
+            elseshow:false,
+            index:0
         }
     },
     components:{
@@ -55,7 +65,8 @@ export default {
         pinpaizhigong:()=>import ("./children/pinpaizhigong"),
         jingxuanzhungti:()=>import ("./children/jingxuanzhuanti"),
         zhongchou:()=>import ("./children/zhongchou"),
-        mengban:()=>import ("./children/mengban")
+        mengban:()=>import ("./children/mengban"),
+        homelist:()=>import("./homelist/homelist")
     },
     computed: {
         ...mapGetters({
@@ -67,12 +78,18 @@ export default {
         ...mapActions({
             homedata:"homeStore/requerydata",
             homeBannerswiperdata:"homeStore/requeryHomeSwiperdata"
-        })
+        }),
+        hangselect(id,index){
+            this.index = index;
+            this.selectIndex = id;
+            this.isShow = false;
+            this.elseshow = true;
+        }
     },
     created() {
         this.homedata(JVJIA_SHENGHUO);
         this.homeBannerswiperdata(HOME_BANNER_SWIPER);
-    },
+    }
 }
 </script>
 <style scoped>
@@ -107,6 +124,8 @@ export default {
 .box{
     background: #ccc;
 }
-
+.active{
+    color:#f40;
+}
 
 </style>

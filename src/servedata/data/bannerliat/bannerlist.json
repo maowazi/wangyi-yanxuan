@@ -1,0 +1,530 @@
+[
+    {
+        "showIndex": 1,
+        "level": "L1",
+        "wapBannerUrl": "https://yanxuan.nosdn.127.net/e8bf0cf08cf7eda21606ab191762e35c.png",
+        "bannerUrl": "https://yanxuan.nosdn.127.net/761877bc4e2cf50d7c424a8a7e6378bf.jpg",
+        "frontDesc": "回家，放松身心",
+        "type": 0,
+        "frontName": "",
+        "categoryType": 0,
+        "superCategoryId": 0,
+        "bannerList": [
+            {
+                "picUrl": "https://yanxuan.nosdn.127.net/f371b80bfc10fcbfbe282831a73f4c88.jpg",
+                "extra": {
+                    "materialName": "居家-浴巾选购-7.29-7.31",
+                    "rcmdSort": false,
+                    "taskType": 1,
+                    "itemFrom": 0,
+                    "crmUserGroupName": "无分组",
+                    "resourcesId": 2,
+                    "materialType": "频道类目首焦广告",
+                    "crmUserGroupId": "0",
+                    "materialId": "54629394",
+                    "taskId": "54630903"
+                },
+                "id": 0,
+                "targetUrl": "http://act.you.163.com/act/pub/WgFEkX34Bo.html"
+            },
+            {
+                "picUrl": "https://yanxuan.nosdn.127.net/201b4234448f11c3ad5103a9c4adf8e1.jpg",
+                "extra": {
+                    "materialName": "餐厨-食器专题-0725",
+                    "rcmdSort": false,
+                    "taskType": 1,
+                    "itemFrom": 0,
+                    "crmUserGroupName": "无分组",
+                    "resourcesId": 3,
+                    "materialType": "频道类目首焦广告",
+                    "crmUserGroupId": "0",
+                    "materialId": "54629522",
+                    "taskId": "54631187"
+                },
+                "id": 0,
+                "targetUrl": "https://act.you.163.com/act/pub/YsksQrxyJC.html"
+            },
+            {
+                "picUrl": "https://yanxuan.nosdn.127.net/6f03d7c30c1e36663a0f3123ed55e002.jpg",
+                "extra": {
+                    "materialName": "居家-小户型装修-7.25-7.31",
+                    "rcmdSort": false,
+                    "taskType": 1,
+                    "itemFrom": 0,
+                    "crmUserGroupName": "无分组",
+                    "resourcesId": 5,
+                    "materialType": "频道类目首焦广告",
+                    "crmUserGroupId": "0",
+                    "materialId": "54629387",
+                    "taskId": "54630889"
+                },
+                "id": 0,
+                "targetUrl": "https://act.you.163.com/act/pub/TWqTfvjhpC.html"
+            }
+        ],
+        "name": "居家生活",
+        "iconUrl": "https://yanxuan.nosdn.127.net/a45c2c262a476fea0b9fc684fed91ef5.png",
+        "id": 1005000,
+        "subCateList": []
+    },
+    {
+        "showIndex": 2,
+        "level": "L1",
+        "wapBannerUrl": "https://yanxuan.nosdn.127.net/e9fe3cabed74c62c447396c8a4a8db0b.png",
+        "bannerUrl": "https://yanxuan.nosdn.127.net/2d7c7841acae25d7bd66d95d22cb20f9.png",
+        "frontDesc": "贴身的，要亲肤",
+        "type": 0,
+        "frontName": "",
+        "categoryType": 0,
+        "superCategoryId": 0,
+        "bannerList": [
+            {
+                "picUrl": "https://yanxuan.nosdn.127.net/af22bc3dc442efcee07baa79c5e40f90.jpg",
+                "extra": {
+                    "materialName": "服配新品画册725",
+                    "rcmdSort": false,
+                    "taskType": 1,
+                    "itemFrom": 0,
+                    "crmUserGroupName": "无分组",
+                    "resourcesId": 1,
+                    "materialType": "频道类目首焦广告",
+                    "crmUserGroupId": "0",
+                    "materialId": "54629446",
+                    "taskId": "54630963"
+                },
+                "id": 0,
+                "targetUrl": "http://you.163.com/topic/v1/pub/RLtOZLDs7e.html"
+            },
+            {
+                "picUrl": "https://yanxuan.nosdn.127.net/eb21981deb26338dfc2b1047f55ae734.jpg",
+                "extra": {
+                    "materialName": "服配-面料小课堂-724",
+                    "rcmdSort": false,
+                    "taskType": 1,
+                    "itemFrom": 0,
+                    "crmUserGroupName": "无分组",
+                    "resourcesId": 2,
+                    "materialType": "频道类目首焦广告",
+                    "crmUserGroupId": "0",
+                    "materialId": "54629382",
+                    "taskId": "54630868"
+                },
+                "id": 0,
+                "targetUrl": "https://act.you.163.com/act/pub/51SbVNxe7V.html"
+            },
+            {
+                "picUrl": "https://yanxuan.nosdn.127.net/e083c995ed9c369c4abbb19800a4e95c.jpg",
+                "extra": {
+                    "materialName": "大服配-人设穿搭-0725",
+                    "rcmdSort": false,
+                    "taskType": 1,
+                    "itemFrom": 0,
+                    "crmUserGroupName": "无分组",
+                    "resourcesId": 3,
+                    "materialType": "频道类目首焦广告",
+                    "crmUserGroupId": "0",
+                    "materialId": "54629462",
+                    "taskId": "54631001"
+                },
+                "id": 0,
+                "targetUrl": "https://you.163.com/topic/v1/pub/mFlOGGEurCFb.html"
+            },
+            {
+                "picUrl": "https://yanxuan.nosdn.127.net/f3ef9b0c2638f466c813e5c025afb605.jpg",
+                "extra": {
+                    "materialName": "0718时髦日历",
+                    "rcmdSort": false,
+                    "taskType": 1,
+                    "itemFrom": 0,
+                    "crmUserGroupName": "",
+                    "resourcesId": 4,
+                    "materialType": "频道类目首焦广告",
+                    "crmUserGroupId": "0",
+                    "materialId": "54629217",
+                    "taskId": "54630489"
+                },
+                "id": 0,
+                "targetUrl": "https://act.you.163.com/act/pub/B0IcNi7Cqz.html"
+            },
+            {
+                "picUrl": "https://yanxuan.nosdn.127.net/2617b8833a5bd7f9d533f3953c501eff.jpg",
+                "extra": {
+                    "materialName": "严选1000单体验",
+                    "rcmdSort": false,
+                    "taskType": 1,
+                    "itemFrom": 0,
+                    "crmUserGroupName": "无分组",
+                    "resourcesId": 5,
+                    "materialType": "频道类目首焦广告",
+                    "crmUserGroupId": "0",
+                    "materialId": "54629574",
+                    "taskId": "54631346"
+                },
+                "id": 0,
+                "targetUrl": "http://you.163.com/topic/v1/pub/uQuVhpQEv6rD.html"
+            },
+            {
+                "picUrl": "https://yanxuan.nosdn.127.net/2ed2a83d03671863d0fc19d4b091d3d4.jpg",
+                "extra": {
+                    "materialName": "大服饰-鞋履专辑-0712",
+                    "rcmdSort": false,
+                    "taskType": 1,
+                    "itemFrom": 0,
+                    "crmUserGroupName": "无分组",
+                    "resourcesId": 6,
+                    "materialType": "频道类目首焦广告",
+                    "crmUserGroupId": "0",
+                    "materialId": "54629000",
+                    "taskId": "54631345"
+                },
+                "id": 0,
+                "targetUrl": "https://act.you.163.com/act/pub/GpDS6kx1iN.html"
+            }
+        ],
+        "name": "服饰鞋包",
+        "iconUrl": "https://yanxuan.nosdn.127.net/9f64e690b593694a25cb0be4807d4de5.png",
+        "id": 1010000,
+        "subCateList": []
+    },
+    {
+        "showIndex": 3,
+        "level": "L1",
+        "wapBannerUrl": "https://yanxuan.nosdn.127.net/fb670ff3511182833e5b035275e4ac09.png",
+        "bannerUrl": "https://yanxuan.nosdn.127.net/e71c18948044771a7ebd4c9cc551ce8a.png",
+        "frontDesc": "好吃，高颜值美食",
+        "type": 0,
+        "frontName": "",
+        "categoryType": 0,
+        "superCategoryId": 0,
+        "bannerList": [
+            {
+                "picUrl": "https://yanxuan.nosdn.127.net/f49b75aaa07ca5e811fe0cca0712055a.jpg",
+                "extra": {
+                    "materialName": "食品-冰冻美食-0728",
+                    "rcmdSort": false,
+                    "taskType": 1,
+                    "itemFrom": 0,
+                    "crmUserGroupName": "无分组",
+                    "resourcesId": 1,
+                    "materialType": "频道类目首焦广告",
+                    "crmUserGroupId": "0",
+                    "materialId": "54629531",
+                    "taskId": "54631205"
+                },
+                "id": 0,
+                "targetUrl": "https://act.you.163.com/act/pub/EhqAFIXqDE.html"
+            },
+            {
+                "picUrl": "https://yanxuan.nosdn.127.net/676ba1c1a7830b1e2f270d154a8b56bd.jpg",
+                "extra": {
+                    "materialName": "食品-24小时热销榜-长期",
+                    "rcmdSort": false,
+                    "taskType": 1,
+                    "itemFrom": 0,
+                    "crmUserGroupName": "",
+                    "resourcesId": 2,
+                    "materialType": "频道类目首焦广告",
+                    "crmUserGroupId": "0",
+                    "materialId": "53265990",
+                    "taskId": "54629745"
+                },
+                "id": 0,
+                "targetUrl": "http://you.163.com/item/saleRank?categoryId=1005002"
+            },
+            {
+                "picUrl": "https://yanxuan.nosdn.127.net/ef8eabd184d1b86661bc942dd9d1c497.jpg",
+                "extra": {
+                    "materialName": "食品—7月新品好评-7.16",
+                    "rcmdSort": false,
+                    "taskType": 1,
+                    "itemFrom": 0,
+                    "crmUserGroupName": "",
+                    "resourcesId": 3,
+                    "materialType": "频道类目首焦广告",
+                    "crmUserGroupId": "0",
+                    "materialId": "54629103",
+                    "taskId": "54630262"
+                },
+                "id": 0,
+                "targetUrl": "https://act.you.163.com/act/pub/245sa6K4H4.html"
+            },
+            {
+                "picUrl": "https://yanxuan.nosdn.127.net/a4167491707222dea6a4aaafb095dc94.jpg",
+                "extra": {
+                    "materialName": "职场解压零食",
+                    "rcmdSort": false,
+                    "taskType": 1,
+                    "itemFrom": 0,
+                    "crmUserGroupName": "无分组",
+                    "resourcesId": 4,
+                    "materialType": "频道类目首焦广告",
+                    "crmUserGroupId": "0",
+                    "materialId": "54629552",
+                    "taskId": "54631291"
+                },
+                "id": 0,
+                "targetUrl": "https://you.163.com/act/pub/CkIIoYfPC8TP.html"
+            },
+            {
+                "picUrl": "https://yanxuan.nosdn.127.net/47d2d0750b8d278dcea3476b3f9c4d79.jpg",
+                "extra": {
+                    "materialName": "食在夏夜，难忘今宵",
+                    "rcmdSort": false,
+                    "taskType": 1,
+                    "itemFrom": 0,
+                    "crmUserGroupName": "",
+                    "resourcesId": 5,
+                    "materialType": "频道类目首焦广告",
+                    "crmUserGroupId": "0",
+                    "materialId": "54629295",
+                    "taskId": "54630693"
+                },
+                "id": 0,
+                "targetUrl": "https://act.you.163.com/act/pub/5GtVU6pG1V.html"
+            }
+        ],
+        "name": "美食酒水",
+        "iconUrl": "https://yanxuan.nosdn.127.net/c9280327a3fd2374c000f6bf52dff6eb.png",
+        "id": 1005002,
+        "subCateList": []
+    },
+    {
+        "showIndex": 4,
+        "level": "L1",
+        "wapBannerUrl": "https://yanxuan.nosdn.127.net/284e588ee387f8491afd93d3cec77901.png",
+        "bannerUrl": "https://yanxuan.nosdn.127.net/73e8dfdda753de91e028da67a0963c1a.png",
+        "frontDesc": "亲肤之物，严选天然",
+        "type": 0,
+        "frontName": "",
+        "categoryType": 0,
+        "superCategoryId": 0,
+        "bannerList": [
+            {
+                "picUrl": "https://yanxuan.nosdn.127.net/72683723f9c3de170675477469ba0e3c.jpg",
+                "extra": {
+                    "materialName": "洗护滚珠香水banner",
+                    "rcmdSort": false,
+                    "taskType": 1,
+                    "itemFrom": 0,
+                    "crmUserGroupName": "无分组",
+                    "resourcesId": 1,
+                    "materialType": "频道类目首焦广告",
+                    "crmUserGroupId": "0",
+                    "materialId": "54629202",
+                    "taskId": "54631234"
+                },
+                "id": 0,
+                "targetUrl": "https://you.163.com/item/detail?id=3486169"
+            },
+            {
+                "picUrl": "https://yanxuan.nosdn.127.net/4430a4683919898cf51e91112d5aec9a.jpg",
+                "extra": {
+                    "materialName": "春风情趣小秘诀0729-0731",
+                    "rcmdSort": false,
+                    "taskType": 1,
+                    "itemFrom": 0,
+                    "crmUserGroupName": "无分组",
+                    "resourcesId": 2,
+                    "materialType": "频道类目首焦广告",
+                    "crmUserGroupId": "0",
+                    "materialId": "54629542",
+                    "taskId": "54631277"
+                },
+                "id": 0,
+                "targetUrl": "https://act.you.163.com/act/pub/DuUnlJX19F.html"
+            },
+            {
+                "picUrl": "https://yanxuan.nosdn.127.net/9fae2e6bba51d432d967be7d58d84298.jpg",
+                "extra": {
+                    "materialName": "洗护清洁热销榜0508",
+                    "rcmdSort": false,
+                    "taskType": 1,
+                    "itemFrom": 0,
+                    "crmUserGroupName": "",
+                    "resourcesId": 3,
+                    "materialType": "频道类目首焦广告",
+                    "crmUserGroupId": "0",
+                    "materialId": "53299123",
+                    "taskId": "54630020"
+                },
+                "id": 0,
+                "targetUrl": "https://you.163.com/item/saleRank?categoryId=1013001"
+            }
+        ],
+        "name": "个护清洁",
+        "iconUrl": "https://yanxuan.nosdn.127.net/a6dcd39065e12767ec099cf37b65f000.png",
+        "id": 1013001,
+        "subCateList": []
+    },
+    {
+        "showIndex": 5,
+        "level": "L1",
+        "wapBannerUrl": "https://yanxuan.nosdn.127.net/f946bc18da43e2f1f5417aec2060e492.png",
+        "bannerUrl": "https://yanxuan.nosdn.127.net/e65d94b55a1c785cedeb398f62115922.png",
+        "frontDesc": "爱，从心开始",
+        "type": 0,
+        "frontName": "",
+        "categoryType": 0,
+        "superCategoryId": 0,
+        "bannerList": [
+            {
+                "picUrl": "https://yanxuan.nosdn.127.net/30cd4111aa28c0243249d63f3ef5ef7c.jpg",
+                "extra": {
+                    "materialName": "婴童亲子游",
+                    "rcmdSort": false,
+                    "taskType": 1,
+                    "itemFrom": 0,
+                    "crmUserGroupName": "无分组",
+                    "resourcesId": 1,
+                    "materialType": "频道类目首焦广告",
+                    "crmUserGroupId": "0",
+                    "materialId": "54629440",
+                    "taskId": "54630956"
+                },
+                "id": 0,
+                "targetUrl": "https://act.you.163.com/act/pub/CaN2t1zWZx.html"
+            },
+            {
+                "picUrl": "https://yanxuan.nosdn.127.net/d3cd565eb4fcb104bf6b916c898c7ca2.jpg",
+                "extra": {
+                    "materialName": "婴童面料博物馆713",
+                    "rcmdSort": false,
+                    "taskType": 1,
+                    "itemFrom": 0,
+                    "crmUserGroupName": "无分组",
+                    "resourcesId": 2,
+                    "materialType": "频道类目首焦广告",
+                    "crmUserGroupId": "0",
+                    "materialId": "54628973",
+                    "taskId": "54630955"
+                },
+                "id": 0,
+                "targetUrl": "https://act.you.163.com/act/pub/lGALKHgCpz.html"
+            },
+            {
+                "picUrl": "https://yanxuan.nosdn.127.net/a2dac3eacd5fd7a0005ae3dd0a9637b7.jpg",
+                "extra": {
+                    "materialName": "婴童排行榜0509",
+                    "rcmdSort": false,
+                    "taskType": 1,
+                    "itemFrom": 0,
+                    "crmUserGroupName": "",
+                    "resourcesId": 3,
+                    "materialType": "频道类目首焦广告",
+                    "crmUserGroupId": "0",
+                    "materialId": "53294833",
+                    "taskId": "54629686"
+                },
+                "id": 0,
+                "targetUrl": "http://you.163.com/item/saleRank?categoryId=1011000"
+            },
+            {
+                "picUrl": "https://yanxuan.nosdn.127.net/2f77cff53b1162452c6cbd6aafa40d69.jpg",
+                "extra": {
+                    "materialName": "众筹桌椅",
+                    "rcmdSort": false,
+                    "taskType": 1,
+                    "itemFrom": 0,
+                    "crmUserGroupName": "无分组",
+                    "resourcesId": 4,
+                    "materialType": "频道类目首焦广告",
+                    "crmUserGroupId": "0",
+                    "materialId": "54629488",
+                    "taskId": "54631033"
+                },
+                "id": 0,
+                "targetUrl": "http://you.163.com/zc/project/detail?id=350&_stat_area=4&_stat_referer=search&_stat_query=%E6%A1%8C%E6%A4%85&_stat_count=9&_stat_searchversion=73"
+            },
+            {
+                "picUrl": "https://yanxuan.nosdn.127.net/cb13612a3609c3b6922dbfdc53272ae1.jpg",
+                "extra": {
+                    "materialName": "众筹banner魔方",
+                    "rcmdSort": false,
+                    "taskType": 1,
+                    "itemFrom": 0,
+                    "crmUserGroupName": "无分组",
+                    "resourcesId": 5,
+                    "materialType": "频道类目首焦广告",
+                    "crmUserGroupId": "0",
+                    "materialId": "54629487",
+                    "taskId": "54631034"
+                },
+                "id": 0,
+                "targetUrl": "http://you.163.com/zc/project/detail?id=361&_stat_area=1&_stat_referer=search&_stat_query=%E9%AD%94%E6%96%B9&_stat_count=4&_stat_searchversion=73"
+            }
+        ],
+        "name": "母婴亲子",
+        "iconUrl": "https://yanxuan.nosdn.127.net/0a427bfa1804cdf3fb5249b4c31e6319.png",
+        "id": 1011000,
+        "subCateList": []
+    },
+    {
+        "showIndex": 6,
+        "level": "L1",
+        "wapBannerUrl": "https://yanxuan.nosdn.127.net/740f6ec44f396001a19ce3bb34b06d8e.png",
+        "bannerUrl": "https://yanxuan.nosdn.127.net/20a3cc5d6c582f65119503b93b005976.png",
+        "frontDesc": "走出去，自然的恩赐",
+        "type": 0,
+        "frontName": "",
+        "categoryType": 0,
+        "superCategoryId": 0,
+        "bannerList": [
+            {
+                "picUrl": "https://yanxuan.nosdn.127.net/62ebf9a8d6d6f5c79ed5a6858495a25f.jpg",
+                "extra": {
+                    "materialName": "运动户外清凉游泳专题-7.15-7.31",
+                    "rcmdSort": false,
+                    "taskType": 1,
+                    "itemFrom": 0,
+                    "crmUserGroupName": "无分组",
+                    "resourcesId": 2,
+                    "materialType": "频道类目首焦广告",
+                    "crmUserGroupId": "0",
+                    "materialId": "54629081",
+                    "taskId": "54630181"
+                },
+                "id": 0,
+                "targetUrl": "https://act.you.163.com/act/pub/2z2n77acfq.html"
+            },
+            {
+                "picUrl": "https://yanxuan.nosdn.127.net/34400ed047c2ac741e2cc1b5d1b66790.jpg",
+                "extra": {
+                    "materialName": "运动户外脂肪消灭者联盟",
+                    "rcmdSort": false,
+                    "taskType": 1,
+                    "itemFrom": 0,
+                    "crmUserGroupName": "无分组",
+                    "resourcesId": 3,
+                    "materialType": "频道类目首焦广告",
+                    "crmUserGroupId": "0",
+                    "materialId": "54628707",
+                    "taskId": "54630571"
+                },
+                "id": 0,
+                "targetUrl": "https://act.you.163.com/act/pub/9clJsfVc5Z.html"
+            },
+            {
+                "picUrl": "https://yanxuan.nosdn.127.net/0f5f1be462392027e76593c428522c20.jpg",
+                "extra": {
+                    "materialName": "运动户外热销24小时0509-0512",
+                    "rcmdSort": false,
+                    "taskType": 1,
+                    "itemFrom": 0,
+                    "crmUserGroupName": "无分组",
+                    "resourcesId": 5,
+                    "materialType": "频道类目首焦广告",
+                    "crmUserGroupId": "0",
+                    "materialId": "53296995",
+                    "taskId": "54629313"
+                },
+                "id": 0,
+                "targetUrl": "http://you.163.com/item/saleRank?categoryId=109243029"
+            }
+        ],
+        "name": "运动旅行",
+        "iconUrl": "https://yanxuan.nosdn.127.net/d1bb0452344b61f78da41dcb74c57d28.png",
+        "id": 109243029,
+        "subCateList": []
+    },
+    {"showIndex":7,"level":"L1","wapBannerUrl":"https://yanxuan.nosdn.127.net/4ac8bfac92724054a3ab2aafe5676832.jpg","bannerUrl":"https://yanxuan.nosdn.127.net/fcd5a4b7f9dc02673945513aecc3d14a.jpg","frontDesc":"智能电器，点亮生活。","type":0,"frontName":"","categoryType":0,"superCategoryId":0,"bannerList":[{"picUrl":"https://yanxuan.nosdn.127.net/6bd10dbe35dc6d75e241e3e139963fa9.jpg","extra":{"materialName":"数码家电强劲风扇-0727","rcmdSort":false,"taskType":1,"itemFrom":0,"crmUserGroupName":"","resourcesId":1,"materialType":"频道类目首焦广告","crmUserGroupId":"0","materialId":"54629527","taskId":"54631195"},"id":0,"targetUrl":"http://you.163.com/item/detail?id=3459012"},{"picUrl":"https://yanxuan.nosdn.127.net/fbb75aa5dfea5242193b16beb6c112a3.jpg","extra":{"materialName":"数码家电排行榜0508","rcmdSort":false,"taskType":1,"itemFrom":0,"crmUserGroupName":"","resourcesId":2,"materialType":"频道类目首焦广告","crmUserGroupId":"0","materialId":"53298953","taskId":"54630447"},"id":0,"targetUrl":"http://you.163.com/item/saleRank?categoryId=1043000"},{"picUrl":"https://yanxuan.nosdn.127.net/26875f5e420f91b05e0d2e0caad00f4e.jpg","extra":{"materialName":"数码家电电蚊拍-0727","rcmdSort":false,"taskType":1,"itemFrom":0,"crmUserGroupName":"","resourcesId":3,"materialType":"频道类目首焦广告","crmUserGroupId":"0","materialId":"54629528","taskId":"54630446"},"id":0,"targetUrl":"http://you.163.com/item/detail?id=3814076"}],"name":"数码家电","iconUrl":"https://yanxuan.nosdn.127.net/4a54379128e65792fd836ee461e2ce27.png","id":1043000,"subCateList":[]},{"showIndex":9,"level":"L1","wapBannerUrl":"https://yanxuan.nosdn.127.net/1706e24a5e605870ba3b37ff5f49aa18.png","bannerUrl":"https://yanxuan.nosdn.127.net/54e55e9d8a74c2cef5d624f99860ccdb.png","frontDesc":"爱好，点缀生活","type":0,"frontName":"","categoryType":0,"superCategoryId":0,"bannerList":[{"picUrl":"https://yanxuan.nosdn.127.net/d41f2349bd6ecea9f80afaa75bec0665.jpg","extra":{"materialName":"海外-七夕专题","rcmdSort":false,"taskType":1,"itemFrom":0,"crmUserGroupName":"无分组","resourcesId":1,"materialType":"频道类目首焦广告","crmUserGroupId":"0","materialId":"54629483","taskId":"54631037"},"id":0,"targetUrl":"https://act.you.163.com/act/pub/6JzZq7skTd.html"},{"picUrl":"https://yanxuan.nosdn.127.net/bd6007ec5fe763b48336940eeb9c7208.jpg","extra":{"materialName":"周边-T恤","rcmdSort":false,"taskType":1,"itemFrom":0,"crmUserGroupName":"无分组","resourcesId":2,"materialType":"频道类目首焦广告","crmUserGroupId":"0","materialId":"54629492","taskId":"54631040"},"id":0,"targetUrl":"https://act.you.163.com/act/pub/bJYSk5DjtZ.html"},{"picUrl":"https://yanxuan.nosdn.127.net/d26262479120da9f8badd183ee02f177.png","extra":{"materialName":"海外-between牙膏-新品","rcmdSort":false,"taskType":1,"itemFrom":0,"crmUserGroupName":"无分组","resourcesId":3,"materialType":"频道类目首焦广告","crmUserGroupId":"0","materialId":"54629572","taskId":"54631343"},"id":0,"targetUrl":"https://m.you.163.com/topic/v1/pub/rlp9BCNDIb.html"},{"picUrl":"https://yanxuan.nosdn.127.net/6f4b9216cef47063f04c9560176183e1.jpg","extra":{"materialName":"全球特色 排行榜","rcmdSort":false,"taskType":1,"itemFrom":0,"crmUserGroupName":"","resourcesId":4,"materialType":"频道类目首焦广告","crmUserGroupId":"0","materialId":"53297375","taskId":"54631041"},"id":0,"targetUrl":"https://m.you.163.com/item/saleRank?_stat_from=web_pd_sharedefault_wxfriend_0&categoryId=1019000"},{"picUrl":"https://yanxuan.nosdn.127.net/0e2e46d587ffe0d4d47c90c22427750e.jpg","extra":{"materialName":"海外-奶粉新品","rcmdSort":false,"taskType":1,"itemFrom":0,"crmUserGroupName":"","resourcesId":5,"materialType":"频道类目首焦广告","crmUserGroupId":"0","materialId":"54628934","taskId":"54631042"},"id":0,"targetUrl":"http://you.163.com/item/detail?id=3814050"},{"picUrl":"https://yanxuan.nosdn.127.net/fee2add0bfafbe18608ef265fba55f93.jpg","extra":{"materialName":"海外乳胶凉席0508-0512","rcmdSort":false,"taskType":1,"itemFrom":0,"crmUserGroupName":"无分组","resourcesId":6,"materialType":"频道类目首焦广告","crmUserGroupId":"0","materialId":"53297325","taskId":"54631044"},"id":0,"targetUrl":"http://you.163.com/item/detail?id=3478023"}],"name":"全球特色","iconUrl":"https://yanxuan.nosdn.127.net/7093cfecb9dde1dd3eaf459623df4071.png","id":1019000,"subCateList":[]}
+]

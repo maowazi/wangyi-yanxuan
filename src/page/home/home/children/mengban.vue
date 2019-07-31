@@ -6,9 +6,10 @@
             <div class="menbaninner">
                 <div>
                     <h2>全部频道</h2>
-                    
                 </div>
-                
+                <ul>
+                    <li v-for="item in homenavdata" :key="item.id" @click="handselect(item.id)" :class="{selectActive:value === item.id}">{{item.name}}</li>
+                </ul>
             </div>
         </div>
     </transition>
@@ -17,8 +18,16 @@
 </template>
 <script>
 import animate from 'animate.css';
+import {mapGetters} from "vuex";
 export default {
     name:"mengban",
+    props:{
+        value:{
+            type:Number,
+            required:true,
+            default:-1
+        }
+    },
     data() {
         return {
             flag:false
@@ -27,7 +36,16 @@ export default {
     methods: {
         handshow(){
             this.flag = ! this.flag
+        },
+        handselect(id){
+            this.$emit("input",id);
+            this.flag = false;
         }
+    },
+    computed: {
+        ...mapGetters({
+            homenavdata:"homeStore/senddata",
+        })
     },
 }
 </script>
@@ -50,11 +68,11 @@ export default {
 .menbaninner{
     background: #fff;
     position: absolute;
+    width:100%;
     z-index: 3;
 }
 .menbaninner>div{
     display: flex;
-    width: 3.2rem;
     height: .3rem;
     align-items: center;
     padding-left:.1rem;
@@ -95,5 +113,23 @@ export default {
     100%{
         transform: translateY(0px)
     }
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    padding: .1rem;
+    flex-wrap: wrap;
+}
+ul li {
+    width: .65rem;
+    text-align: center;
+    padding: .05rem 0; 
+    border: 1px solid #ccc;
+    margin-bottom: .1rem;
+    background: rgba(204,204,204,.2)
+}
+.selectActive{
+    border-color: #f40;
+    color:#f40;
 }
 </style>

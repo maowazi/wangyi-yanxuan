@@ -38,14 +38,23 @@ export default {
         })
     },
     created() {
-        let stardate = new Date();
-        let enddate = new Date("2019.7.30 18:00:00");
+        let enddate = new Date("2019.8.2 09:00:00");
+        let x,f,s = 0;
         this.timer = setInterval(()=>{
-            this.x = parseInt(parseInt(diff(new Date(),enddate)) / 60 / 60) < 10 ? "0" + parseInt(parseInt(diff(new Date(),enddate)) / 60 / 60) : parseInt(parseInt(diff(new Date(),enddate)) / 60 / 60);
-            this.f = parseInt( parseInt(diff(new Date(),enddate)) / 60 ) % 60 < 10 ? "0" + parseInt( parseInt(diff(new Date(),enddate)) / 60 ) % 60 : parseInt( parseInt(diff(new Date(),enddate)) / 60 ) % 60;
-            this.s = parseInt(diff(new Date(),enddate)) % 60 < 10 ? "0" + parseInt(diff(new Date(),enddate)) % 60 : parseInt(diff(new Date(),enddate)) % 60;
-            if(this.x <= 0 && this.f <= 0 && this.s <= 0){
-                clearInterval(this.timer);
+            let stardate = new Date();
+            x = parseInt(parseInt(diff(stardate,enddate)) / 60 / 60);
+            f = parseInt( parseInt(diff(stardate,enddate)) / 60 ) % 60;
+            s = parseInt(diff(stardate,enddate)) % 60;
+            if(x <= 0 && f <= 0 && s <= 0){
+                this.x = 0;
+                this.f = 0;
+                this.s = 0;
+                clearInterval(this.timer)
+            }else{
+            console.log()
+                this.x = x < 10 ? "0" + x : x;
+                this.f = f < 10 ? "0" + f : f;
+                this.s = s < 10 ? "0" + s : s;
             }
         },1000);
         this.$store.dispatch("homeStore/actionhomeqianggou",HOME_QIANGGOU)
