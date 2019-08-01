@@ -1,7 +1,7 @@
 <template>
     <div class="homelist">
         <Swipe :imglist="homebannderlist"/>
-        <pronlist v-model="homepronlist" :index="index"/>
+        <pronlist v-model="homepronlist"/>
     </div>
 </template>
 <script>
@@ -10,10 +10,6 @@ export default {
     name:"homelist",
     props:{
         value:{
-            type:Number,
-            required:true
-        },
-        index:{
             type:Number,
             required:true
         }

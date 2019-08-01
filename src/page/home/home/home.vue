@@ -3,10 +3,10 @@
         <Serch/>
         <scroll class="herdernav">
            <ul>
-               <li v-for="(item,index) in homenavdata" 
+               <li v-for="(item) in homenavdata" 
                :key="item.id"
                :class="{active:selectIndex === item.id}"
-               @click="hangselect(item.id,index)"
+               @click="hangselect(item.id)"
                >
                {{item.name}}
                </li>
@@ -31,7 +31,7 @@
                     <zhongchou/>
                 </div>
                 <div v-show="elseshow">
-                    <homelist v-model="selectIndex" :index="index"/>
+                    <homelist v-model="selectIndex"/>
                 </div>
             </div>
         </scroll>
@@ -47,8 +47,7 @@ export default {
         return {
             selectIndex:-1,
             isShow:true,
-            elseshow:false,
-            index:0
+            elseshow:false
         }
     },
     components:{
@@ -79,8 +78,7 @@ export default {
             homedata:"homeStore/requerydata",
             homeBannerswiperdata:"homeStore/requeryHomeSwiperdata"
         }),
-        hangselect(id,index){
-            this.index = index;
+        hangselect(id){
             this.selectIndex = id;
             this.isShow = false;
             this.elseshow = true;

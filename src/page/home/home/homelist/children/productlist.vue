@@ -1,16 +1,19 @@
 <template>
     <div v-if="value.length">
         <div class="pronlist" 
-            v-for="(item,index) in value[index-1].title" :key="index"
+            v-for="(item,index) in value" :key="index"
             >
-            <h2>{{item}}</h2>
-            <p></p>
+            <h2>{{item.category.name}}</h2>
+            <p>{{item.category.frontName}}</p>
             <ul>
-                <li>
-                    <div><img src="" alt=""></div>
-                    <p></p>
-                    <p><span></span><i></i></p>
-                    <span></span><span></span>
+                <li v-for="(ite,index) in item.itemList" :key="index">
+                    <div>
+                        <img v-lazy="ite.listPicUrl" alt="图片加载失败">
+                        <p>{{ite.simpleDesc}}</p>    
+                    </div>
+                    <p>{{ite.name}}</p>
+                    <p><span>¥{{ite.retailPrice}}</span><i>¥{{ite.counterPrice}}</i></p>
+                    <span v-for="(it,index) in ite.tagCnts" :key="index" :class="it.txt?'pan':''">{{it.txt}}</span>
                 </li>
             </ul>  
 
@@ -22,26 +25,18 @@ export default {
     name:"pronlist",
     data() {
         return {
-            title:[],
-            frontDesc:[]
+            
         }
     },
     props:{
         value:{
             type:Array,
             required:true
-        },
-        index:{
-            type:Number,
-            required:true
         }
     },
     watch: {
         value:function(){
-            if(this.index === 0)return
-            this.title = this.value[this.index-1].title;
-            this.frontDesc = this.value[this.index-1].frontDesc;
-            console.log(this.value[this.index-1].frontDesc[this.index-1])
+            
         }
     },
 }
@@ -52,10 +47,64 @@ export default {
     background: #fff;
     padding: .05rem;
 }
+h2{
+    font-size: 14px;
+    font-weight: 900;
+    text-align: center;
+    padding: 5px 0;
+}
+.pronlist>p{
+    text-align: center;
+    color: #666;
+    padding: 5px 0;
+}
 ul{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+ul li{
+    width: 150px;
+    margin-bottom: 10px;
+}
+li>div{
+    width: 100%;
+}
+img{
+    width: 100%;
+    display: block;
+}
+li>div p{
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    background: khaki;
+    color:#666;
+}
+li>p:nth-of-type(1){
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 5px 0;
+}
+li>p:nth-of-type(2) span{
+    color:#f40;
+    font-size: 14px;
+    margin: 0 3px;
+}
+li>p:nth-of-type(2) i{
+    color:#ccc;
+    text-decoration: line-through;
+}
+li .pan{
+    display: inline-block;
+    border: 1px solid #f40;
+    border-radius: 6px;
+    color:#f40;
+    padding: 2px;
+    margin-right: 3px;
 }
 </style>
 

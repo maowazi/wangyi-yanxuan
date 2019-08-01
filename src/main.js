@@ -5,7 +5,9 @@ import router from "./router/router";
 import pulic from "./components/publi/publi";
 import VueAwesomeSwiper from 'vue-awesome-swiper';
 import 'swiper/dist/css/swiper.css';
+import VueLazyload from 'vue-lazyload'
 Vue.use(VueAwesomeSwiper);
+Vue.use(VueLazyload)
 
 Vue.use(pulic);
 export default new Vue({
