@@ -26,6 +26,9 @@ export default {
             type:Number,
             required:true,
             default:-1
+        },
+        hand:{
+            type:Function
         }
     },
     data() {
@@ -40,6 +43,7 @@ export default {
         handselect(id){
             this.$emit("input",id);
             this.flag = false;
+            this.hand(id)
         }
     },
     computed: {

@@ -112,6 +112,27 @@ server.get("/api/home/home_bannerlist", (req, res) => {
         data: require("./data/bannerliat/bannerlist")
     });
 })
+server.get("/api/classaction_leftdata", (req, res) => {
+    res.json({
+        code: 0,
+        msg: "OK",
+        data: require("./data/classactiondata/classactionleftnav")
+    });
+})
+server.get("/api/classaction_rightdata", (req, res) => {
+    res.json({
+        code: 0,
+        msg: "OK",
+        data: require("./data/classactiondata/classactionright")
+    });
+})
+server.get("/api/classaction_bannerlistdata", (req, res) => {
+    res.json({
+        code: 0,
+        msg: "OK",
+        data: require("./data/classactiondata/classactionbannerlist")
+    });
+})
 server.listen(8888, (err) => {
     if (err) {
         console.log("服务启动失败");

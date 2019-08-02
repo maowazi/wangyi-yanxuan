@@ -135,7 +135,6 @@ const actions = {
             .then((res) => {
                 if (res.status === 200 && res.data.code === 0) {
                     let data = res.data.data.map(({ id, picUrl }) => ({ id, picUrl }));
-                    
                     commit.commit("updatedHomebannerdata", data);
                 }
             })

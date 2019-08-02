@@ -3,7 +3,8 @@
         <Serch/>
         <scroll class="herdernav">
            <ul>
-               <li v-for="(item) in homenavdata" 
+               <li 
+               v-for="(item) in homenavdata" 
                :key="item.id"
                :class="{active:selectIndex === item.id}"
                @click="hangselect(item.id)"
@@ -15,7 +16,7 @@
         <scroll class="contentinner">     <!--滚动视图只会滚动第一个元素-->
             <div class="box">
                 <div  v-show="isShow">
-                    <Swipe :imglist="homebannerdata"></Swipe>
+                    <Swipe :imglist="homebannerdata" ref="swip"></Swipe>
                     <xieyi/>
                     <xinpinlist/>
                     <GifImg/>
@@ -35,7 +36,7 @@
                 </div>
             </div>
         </scroll>
-        <mengban v-model="selectIndex"/>
+        <mengban v-model="selectIndex" :hand="handelseshow"/>
     </div>
 </template>
 <script>
@@ -79,15 +80,35 @@ export default {
             homeBannerswiperdata:"homeStore/requeryHomeSwiperdata"
         }),
         hangselect(id){
+            if(id === -1){
+                this.$router.push("/home");
+                this.isShow = true;
+                this.elseshow = false;
+            }else{
+                this.isShow = false;
+                this.elseshow = true;
+            }
             this.selectIndex = id;
-            this.isShow = false;
-            this.elseshow = true;
+            
+        },
+        handelseshow(id){
+            if(id === -1){
+                this.$router.push("/home")
+                this.isShow = true;
+                this.elseshow = false;
+            }else{
+                this.isShow = false;
+                this.elseshow = true;
+            }
         }
     },
     created() {
         this.homedata(JVJIA_SHENGHUO);
         this.homeBannerswiperdata(HOME_BANNER_SWIPER);
-    }
+    },
+    // updated() {
+    //     this.$refs.swip.uped();
+    // }
 }
 </script>
 <style scoped>
@@ -125,5 +146,4 @@ export default {
 .active{
     color:#f40;
 }
-
 </style>

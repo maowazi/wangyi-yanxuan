@@ -1,0 +1,286 @@
+[
+    [
+        {
+            "picUrl": "https://yanxuan.nosdn.127.net/5b4ca33a0205482398006405c1db15e8.jpg",
+            "extra": {
+                "materialType": "自定义分类广告位",
+                "materialId": "54629319",
+                "materialName": "180款新品",
+                "rcmdSort": false,
+                "taskType": 1,
+                "itemFrom": 0,
+                "crmUserGroupName": "",
+                "resourcesId": 1,
+                "crmUserGroupId": "0",
+                "taskId": "54630968"
+            },
+            "id": 54630968,
+            "targetUrl": "https://m.you.163.com/topic/v1/pub/Pew1KBH9Au.html"
+        }
+    ],
+    [
+        {
+            "picUrl": "https://yanxuan.nosdn.127.net/25d770a02a3ef0aa3ba0e94857a9187f.jpg",
+            "extra": {
+                "materialType": "自定义分类广告位",
+                "materialId": "54629447",
+                "materialName": "夏凉床品-夏季长期可投",
+                "rcmdSort": false,
+                "taskType": 1,
+                "itemFrom": 0,
+                "crmUserGroupName": "无分组",
+                "resourcesId": 1,
+                "crmUserGroupId": "0",
+                "taskId": "54630966"
+            },
+            "id": 54630966,
+            "targetUrl": "https://m.you.163.com/topic/v1/pub/fBXilSq0YZ.html"
+        },
+        {
+            "picUrl": "https://yanxuan.nosdn.127.net/a97ca145b7e9ad2f89bdb096691ca0f4.jpg",
+            "extra": {
+                "materialType": "自定义分类广告位",
+                "materialId": "54629138",
+                "materialName": "夏日超冷感打开方式",
+                "rcmdSort": false,
+                "taskType": 1,
+                "itemFrom": 0,
+                "crmUserGroupName": "",
+                "resourcesId": 2,
+                "crmUserGroupId": "0",
+                "taskId": "54630425"
+            },
+            "id": 54630425,
+            "targetUrl": "https://m.you.163.com/topic/v1/pub/Ewd31wb2dW.html"
+        }
+    ],
+    [
+        {
+            "picUrl": "https://yanxuan.nosdn.127.net/fd9bb8dd511541082fac86e84750b45c.jpg",
+            "extra": {
+                "materialType": "自定义分类广告位",
+                "materialId": "54629140",
+                "materialName": "实时热销top100",
+                "rcmdSort": false,
+                "taskType": 1,
+                "itemFrom": 0,
+                "crmUserGroupName": "无分组",
+                "resourcesId": 1,
+                "crmUserGroupId": "0",
+                "taskId": "54630332"
+            },
+            "id": 54630332,
+            "targetUrl": "https://m.you.163.com/item/saleRank"
+        }
+    ],
+    [
+        {
+            "picUrl": "http://yanxuan.nosdn.127.net/60ee2d259be8e1fb5d9e1178cb3d0b6a.png",
+            "id": 0,
+            "targetUrl": "https://m.you.163.com/topic/v1/pub/AWoxO6A4GE.html"
+        }
+    ],
+    [
+        {
+            "picUrl": "https://yanxuan.nosdn.127.net/0dc74cd2c55d7d2f3521a87ce46e21d7.jpg",
+            "extra": {
+                "materialType": "APP/WAP分类类目BANNER广告",
+                "materialId": "54629724",
+                "materialName": "居家七夕活动0731",
+                "rcmdSort": false,
+                "taskType": 1,
+                "itemFrom": 0,
+                "crmUserGroupName": "无分组",
+                "resourcesId": 1,
+                "crmUserGroupId": "0",
+                "taskId": "54631552"
+            },
+            "id": 0,
+            "targetUrl": "居家七夕活动0731"
+        }
+    ],
+    [
+        {
+            "picUrl": "https://yanxuan.nosdn.127.net/7e1e210ca9c1cb8a1a98ac593daae618.jpg",
+            "extra": {
+                "materialType": "APP/WAP分类类目BANNER广告",
+                "materialId": "54629703",
+                "materialName": "七夕服装731",
+                "rcmdSort": false,
+                "taskType": 1,
+                "itemFrom": 0,
+                "crmUserGroupName": "无分组",
+                "resourcesId": 1,
+                "crmUserGroupId": "0",
+                "taskId": "54631507"
+            },
+            "id": 0,
+            "targetUrl": "https://act.you.163.com/act/pub/N8IRVmpdxU.html"
+        },
+        {
+            "picUrl": "https://yanxuan.nosdn.127.net/71e3d7451dca16699a5df4d9f51ea9c0.jpg",
+            "extra": {
+                "materialType": "APP/WAP分类类目BANNER广告",
+                "materialId": "54629431",
+                "materialName": "24小时热销 服配725",
+                "rcmdSort": false,
+                "taskType": 1,
+                "itemFrom": 0,
+                "crmUserGroupName": "无分组",
+                "resourcesId": 2,
+                "crmUserGroupId": "0",
+                "taskId": "54631505"
+            },
+            "id": 0,
+            "targetUrl": "http://you.163.com/item/saleRank?categoryId=1010000"
+        }
+    ],
+    [
+        {
+            "picUrl": "https://yanxuan.nosdn.127.net/52b80029ac4cbaa1d4ffd6cd87a8b6d1.jpg",
+            "extra": {
+                "materialType": "APP/WAP分类类目BANNER广告",
+                "materialId": "54629633",
+                "materialName": "食品-七夕-0802",
+                "rcmdSort": false,
+                "taskType": 1,
+                "itemFrom": 0,
+                "crmUserGroupName": "无分组",
+                "resourcesId": 1,
+                "crmUserGroupId": "0",
+                "taskId": "54631401"
+            },
+            "id": 0,
+            "targetUrl": "https://you.163.com/act/pub/iHf4MqLTcxGC.html"
+        }
+    ],
+    [
+        {
+            "picUrl": "https://yanxuan.nosdn.127.net/08055c6ede5b94479d0d9133430ef113.jpg",
+            "extra": {
+                "materialType": "APP/WAP分类类目BANNER广告",
+                "materialId": "53546931",
+                "materialName": "洗护排行榜",
+                "rcmdSort": false,
+                "taskType": 1,
+                "itemFrom": 0,
+                "crmUserGroupName": "",
+                "resourcesId": 1,
+                "crmUserGroupId": "0",
+                "taskId": "54630469"
+            },
+            "id": 0,
+            "targetUrl": "http://you.163.com/item/saleRank?categoryId=1013001"
+        }
+    ],
+    [
+        {
+            "picUrl": "https://yanxuan.nosdn.127.net/3750ff84767ac0b8d2401d98a8795f5e.jpg",
+            "extra": {
+                "materialType": "APP/WAP分类类目BANNER广告",
+                "materialId": "54629747",
+                "materialName": "婴童七夕节",
+                "rcmdSort": false,
+                "taskType": 1,
+                "itemFrom": 0,
+                "crmUserGroupName": "无分组",
+                "resourcesId": 1,
+                "crmUserGroupId": "0",
+                "taskId": "54631600"
+            },
+            "id": 0,
+            "targetUrl": "https://act.you.163.com/act/pub/RxRWDz4F3p.html"
+        },
+        {
+            "picUrl": "https://yanxuan.nosdn.127.net/6b4e9df61f124c2eb18f764fdc957255.jpg",
+            "extra": {
+                "materialType": "APP/WAP分类类目BANNER广告",
+                "materialId": "54628975",
+                "materialName": "婴童面料博物馆713",
+                "rcmdSort": false,
+                "taskType": 1,
+                "itemFrom": 0,
+                "crmUserGroupName": "无分组",
+                "resourcesId": 2,
+                "crmUserGroupId": "0",
+                "taskId": "54630957"
+            },
+            "id": 0,
+            "targetUrl": "https://act.you.163.com/act/pub/lGALKHgCpz.html"
+        }
+    ],
+    [
+        {
+            "picUrl": "https://yanxuan.nosdn.127.net/71f2da78d8a4618e907644bc87575894.jpg",
+            "extra": {
+                "materialType": "APP/WAP分类类目BANNER广告",
+                "materialId": "54629766",
+                "materialName": "运动户外七夕分会场-0801-0807",
+                "rcmdSort": false,
+                "taskType": 1,
+                "itemFrom": 0,
+                "crmUserGroupName": "无分组",
+                "resourcesId": 2,
+                "crmUserGroupId": "0",
+                "taskId": "54631632"
+            },
+            "id": 0,
+            "targetUrl": "https://act.you.163.com/act/pub/taW4oUyWJR.html"
+        },
+        {
+            "picUrl": "https://yanxuan.nosdn.127.net/dc1a495164dc517203f086356e4a6291.jpg",
+            "extra": {
+                "materialType": "APP/WAP分类类目BANNER广告",
+                "materialId": "54510802",
+                "materialName": "运动户外热销榜-长期",
+                "rcmdSort": false,
+                "taskType": 1,
+                "itemFrom": 0,
+                "crmUserGroupName": "无分组",
+                "resourcesId": 3,
+                "crmUserGroupId": "0",
+                "taskId": "54631634"
+            },
+            "id": 0,
+            "targetUrl": "http://you.163.com/item/saleRank?categoryId=109243029"
+        }
+    ],
+    [
+        {
+            "picUrl": "https://yanxuan.nosdn.127.net/80dcec09cc4a70c3c2b1f1c7ca3a837c.jpg",
+            "extra": {
+                "materialType": "APP/WAP分类类目BANNER广告",
+                "materialId": "54629718",
+                "materialName": "数码家电七夕大促0801-0807",
+                "rcmdSort": false,
+                "taskType": 1,
+                "itemFrom": 0,
+                "crmUserGroupName": "无分组",
+                "resourcesId": 1,
+                "crmUserGroupId": "0",
+                "taskId": "54631548"
+            },
+            "id": 0,
+            "targetUrl": "https://act.you.163.com/act/pub/ZOpfZI21kM.html"
+        }
+    ],
+    [
+        {
+            "picUrl": "https://yanxuan.nosdn.127.net/e5eef89b84f0f7533ab48ec5c8953299.jpg",
+            "extra": {
+                "materialType": "APP/WAP分类类目BANNER广告",
+                "materialId": "54629486",
+                "materialName": "海外-七夕专题",
+                "rcmdSort": false,
+                "taskType": 1,
+                "itemFrom": 0,
+                "crmUserGroupName": "",
+                "resourcesId": 1,
+                "crmUserGroupId": "0",
+                "taskId": "54631597"
+            },
+            "id": 0,
+            "targetUrl": "https://act.you.163.com/act/pub/6JzZq7skTd.html"
+        }
+    ]
+]

@@ -48,15 +48,15 @@ export default {
     padding: .05rem;
 }
 h2{
-    font-size: 14px;
+    font-size: .14rem;
     font-weight: 900;
     text-align: center;
-    padding: 5px 0;
+    padding: .05rem 0;
 }
 .pronlist>p{
     text-align: center;
     color: #666;
-    padding: 5px 0;
+    padding: .05rem 0;
 }
 ul{
     display: flex;
@@ -64,8 +64,8 @@ ul{
     flex-wrap: wrap;
 }
 ul li{
-    width: 150px;
-    margin-bottom: 10px;
+    width: 1.5rem;
+    margin-bottom: .1rem;
 }
 li>div{
     width: 100%;
@@ -87,12 +87,12 @@ li>p:nth-of-type(1){
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    padding: 5px 0;
+    padding: .05rem 0;
 }
 li>p:nth-of-type(2) span{
     color:#f40;
-    font-size: 14px;
-    margin: 0 3px;
+    font-size: .14rem;
+    margin: 0 .03rem;
 }
 li>p:nth-of-type(2) i{
     color:#ccc;
@@ -101,10 +101,10 @@ li>p:nth-of-type(2) i{
 li .pan{
     display: inline-block;
     border: 1px solid #f40;
-    border-radius: 6px;
+    border-radius: .06rem;
     color:#f40;
-    padding: 2px;
-    margin-right: 3px;
+    padding: .02rem;
+    margin-right: .03rem;
 }
 </style>
 

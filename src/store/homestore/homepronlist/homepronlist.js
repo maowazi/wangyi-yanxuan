@@ -27,8 +27,8 @@ const actions = {
             if (res.status === 200 && res.data.code === 0) {
                 let selectData = res.data.data.find(item => item.id === paramsId);
                 let { bannerList } = selectData;
-                let bannerlistdata = bannerList.map(({ picUrl }) => ({ picUrl }));
-                comt.commit("muactionhomebannerlist", bannerlistdata);
+                bannerList = bannerList.map(({ picUrl }) => ({ picUrl }));
+                comt.commit("muactionhomebannerlist", bannerList);
             }
         })
         .catch((err) => {
@@ -37,6 +37,7 @@ const actions = {
             
     },
     actionhomepronlist(comt, paramsId) {
+        if(paramsId === -1)return
         axios.get(HOME_PRONLIST)
             .then((res) => {
                 if (res.status === 200 && res.data.code === 0) {
@@ -45,7 +46,6 @@ const actions = {
                             return item.category.superCategoryId === paramsId
                         })
                     });
-                    console.log(selectData)
                     selectData = selectData.map(({ category: { name, frontName, superCategoryId }, itemList }) => ({ category: { name, frontName, superCategoryId }, itemList}))
                     selectData = selectData.map((item) => {
                         return {
@@ -53,7 +53,6 @@ const actions = {
                             itemList: item.itemList.map(({ counterPrice, id, listPicUrl, name, promTag, retailPrice, simpleDesc, tagCnts }) => ({ counterPrice, id, listPicUrl, name, promTag, retailPrice, simpleDesc, tagCnts}))
                         }
                     })
-                    console.log(selectData)
                     comt.commit("muactionhomepronlist", selectData);
                 }
             })

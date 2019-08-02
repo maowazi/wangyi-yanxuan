@@ -5,7 +5,15 @@ const homerouter = [
     },
     {
         path: "/home",
-        component:() => import("../../page/home/home/home")
+        component: () => import("../../page/home/home/home"),
+        children: [
+            {
+                path: "productLiat",
+                component:()=>import("../../page/home/home/homelist/homelist")
+
+            }
+            
+        ]
     }
 ]
 export default homerouter;
