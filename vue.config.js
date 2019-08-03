@@ -11,8 +11,11 @@
             },
             "/api": {
                 target:"http://localhost:8888"
+            },
+            "/topic": {
+                target: "http://m.you.163.com"
             }
         }
     }
 }
-//此文件要写在项目根目录下
+//此文件要写在项目根目录下/topic

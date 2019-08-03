@@ -12,7 +12,7 @@ const getters = {
         return state.selectpronlist
     }
 }
-const mutations = {
+const mutations = { 
     muactionhomebannerlist(state,params) {
         state.selectbannerlist = params
     },
@@ -21,7 +21,7 @@ const mutations = {
     }
 }
 const actions = {
-    actionhomebannerlist(comt,paramsId) {
+    actionhomebannerlist(comt, paramsId) { 
         axios.get(HOME_BANNERLIST)
         .then((res) => {
             if (res.status === 200 && res.data.code === 0) {

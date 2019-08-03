@@ -38,7 +38,7 @@ export default {
         })
     },
     created() {
-        let enddate = new Date("2019.8.2 09:00:00");
+        let enddate = new Date("2019.8.8 09:00:00");
         let x,f,s = 0;
         this.timer = setInterval(()=>{
             let stardate = new Date();

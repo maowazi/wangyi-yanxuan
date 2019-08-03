@@ -120,7 +120,7 @@ const actions = {
     requerydata(commit,params) {
         axios.get(params)
             .then((res) => {
-                if (res.status === 200 && res.data.code === 0) {
+                if (res.status === 200 && res.data.code === 0) { 
                     let data = res.data.data.map(({ id, name }) => ({ id, name }));
                     data.splice(0,0,{id:-1,name:"推荐"})
                     commit.commit("updatedHomedata", data);
